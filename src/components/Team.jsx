@@ -7,8 +7,7 @@ export const Team = (props) => {
     <div className="col-md-12  section-title">
       <h2>PARTNERS</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-        dapibus leonec.
+      ESSI : In Service to the Nation through Innovative Application of Technology for TOTAL SECURITY.
       </p>
     </div>
     <div className="row">

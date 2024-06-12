@@ -68,65 +68,65 @@
   
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "img": "img/products/6.png",
       "name": "UVSS",
       "text": "In today´s world, we are facing increased threat from terrorism, crime, theft and vandalism. If your premises are worth securing, it’s worth looking into Under Vehicle Surveillance Systems (UVSS). ESSI's UVSS solutions are designed to scan, monitor, and digitally record crisp, clear digital video images of the entire width of a vehicle’s undersides—all with one permanent or portable system."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "img": "img/products/5.jpeg ",
       "name": "Visitors Management System",
       "text": "Visitor Management System refers to tracking the usage of a public building or site. By gathering increasing amounts of information, a visitor management system can record the usage of the facilities by specific visitors and provide documentation of visitor’s whereabouts."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "img": "img/products/3.jpeg",
       "name": "Access Control System",
       "text": "ESSI Personnel Access Control System is specially designed to keep track of employees coming and going out of the premises. With this system you will be able to expedite the employees authentication process, determine who is still inside of your facility and notify the system users once the banned intends to sign in or sign out. Its use can vary from user to user for exIt can also be used as employees time and attendance system."
     },
     {
-      "icon": "fa fa-language",
+      "img": "img/products/2.jpeg",
       "name": "Face Detection & Recognition System",
       "text": "ESSI’s Face Detection & Recognition System is an application  for automatically identifying or verifying a person from a digital image or a video frame.One of the ways to do this is by comparing selected  facial features from the image and a facial database.This is a perfect way to empower web and desktop applications with face-based user authentication, automatic face recognition, and identification."
     },
     {
-      "icon": "fa fa-plane",
+      "img": "img/products/4.jpg",
       "name": "Video  Surveillance System",
       "text": "A Surveillance Systems are often installed in many premises and areas as a means to prevent crime and ensure the safety of the occupants by having constant watch on the activities.Video surveillance is monitoring of behavior, activities, or other changing information, usually of people for the purpose of influencing, managing, directing, or protecting. Video surveillance is therefore an ambiguous practice, sometimes creating positive effects, at other times negative."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "img": "img/products/1.jpeg",
       "name": "E-Parking",
       "text": "E-parking system is an effective tool for management of parking space through better access control and parking revenue method in busy areas in big cities such as shopping complexes, stadiums and other popular places, especially during their peak hour."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+      "img": "img/clients/1.jpg",
+      "text": "\"Parliament House\"",
       "name": "Parliament House"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+      "img": "img/clients/2.jpg",
+      "text": "\"Delhi Secretariat\"",
       "name": "Delhi Secretariat"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+      "img": "img/clients/3.jpg",
+      "text": "\"Delhi Internatinal Airport Ltd.\"",
       "name": "Delhi Internatinal Airport Ltd."
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+      "img": "img/clients/4.jpg",
+      "text": "\"Ministry of Defence\"",
       "name": "Ministry of Defence"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+      "img": "img/clients/5.jpg",
+      "text": "\"Karkardooma Court , Delhi\"",
       "name": "Karkardooma Court , Delhi"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+      "img": "img/clients/6.jpg",
+      "text": "\"Jaypee Sports\"",
       "name": "Jaypee Sports"
     }
     
@@ -135,34 +135,22 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/partners/ibm-logo.jpeg"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/partners/Dlink Logo.jpeg"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/partners/Cisco_logo.svg.jpeg"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/partners/axis.jpeg"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/partners/basler.jpeg"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/partners/Bosch-logo.jpeg"
     }
   ],
   "Contact": {
