@@ -17,7 +17,7 @@ export const Services = (props) => {
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
                   {/* <i className={d.icon}></i> */}
-                  <div className="products-image" style={{ textAlign: 'center' }}>
+                  <div className="products-image">
                       <img src={d.img} alt="" />
                     </div>
                   <div className="service-desc">

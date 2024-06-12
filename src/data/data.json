@@ -66,7 +66,7 @@
     }
   ],
   
-  "Services": [
+  "Products": [
     {
       "img": "img/products/6.png",
       "name": "UVSS",
@@ -98,7 +98,7 @@
       "text": "E-parking system is an effective tool for management of parking space through better access control and parking revenue method in busy areas in big cities such as shopping complexes, stadiums and other popular places, especially during their peak hour."
     }
   ],
-  "Testimonials": [
+  "Clients": [
     {
       "img": "img/clients/1.jpg",
       "text": "\"Parliament House\"",
@@ -133,7 +133,7 @@
     
     
   ],
-  "Team": [
+  "Partners": [
     {
       "img": "img/partners/ibm-logo.jpeg"
     },
@@ -161,7 +161,7 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+  "Services": [
     {
       "icon": "fa fa-comments-o",
       "title": "Consulting",

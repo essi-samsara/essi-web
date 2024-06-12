@@ -23,13 +23,22 @@ const App = () => {
   return (
     <div>
       <Navigation />
+
+      {/* Header component */}
       <Header data={landingPageData.Header} />
+        {/* About component */}
       <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Features data={landingPageData.Features} />
-      <Team data={landingPageData.Team} />
-      <Testimonials data={landingPageData.Testimonials} />
+      {/* Product component */}
+      <Services data={landingPageData.Products} />
+      {/* service component */}
+      <Features data={landingPageData.Services} />
+      {/* partners components */}
+      <Team data={landingPageData.Partners} />
+      {/* clients components */}
+      <Testimonials data={landingPageData.Clients} />
+      {/* Gallery components */}
       <AllGallery data={landingPageData.Gallery} />
+      {/* contact components */}
       <Contact data={landingPageData.Contact} />
     </div>
   );
