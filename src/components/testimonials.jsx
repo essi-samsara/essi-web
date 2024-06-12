@@ -5,7 +5,10 @@ export const Testimonials = (props) => {
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>What our clients say</h2>
+          <h2>Our Clients</h2>
+          <p>
+          ESSI strives to become first choice for “Application Development, Manufacturing, System Integration and Turn Key Project Implementation for Integrated Security System, Access Control, Video Surveillance, Tolling, and Parking & Intelligent Traffic System”.
+          </p>
         </div>
         <div className="row">
           {props.data
@@ -17,8 +20,9 @@ export const Testimonials = (props) => {
                       <img src={d.img} alt="" />{" "}
                     </div>
                     <div className="testimonial-content">
+                    <div className="testimonial-meta"> {d.name} </div>
                       <p>"{d.text}"</p>
-                      <div className="testimonial-meta"> - {d.name} </div>
+                      
                     </div>
                   </div>
                 </div>
