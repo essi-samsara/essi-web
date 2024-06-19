@@ -1,46 +1,41 @@
-import React, { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team"; // Corrected import
-import { Contact } from "./components/contact";
-import { Gallery } from "./components/gallery";
-import {AllGallery} from "./components/allGallery"
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
-import "./App.css";
+import Home from './components/Home/home';
+import About from './components/About/about';
+import Products from './components/Products/products';
+import AboutProduct from './components/Products/ProductDetails/AboutProduct';
+import Services from './components/Services/services';
+import AboutService from './components/Services/ServiceDetails/AboutService'; // Corrected import
+import Partners from './components/Partners/partners';
+import Clients from './components/Clients/clients';
+import AllGallery from './components/Gallery/allGallery';
+import Contact from './components/Contact/contact';
+import Navigation from './components/navigation';
+import Footer from './components/footer';
+
+import data from './data/data.json';
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-
   return (
-    <div>
-      <Navigation />
-
-      {/* Header component */}
-      <Header data={landingPageData.Header} />
-        {/* About component */}
-      <About data={landingPageData.About} />
-      {/* Product component */}
-      <Services data={landingPageData.Products} />
-      {/* service component */}
-      <Features data={landingPageData.Services} />
-      {/* partners components */}
-      <Team data={landingPageData.Partners} />
-      {/* clients components */}
-      <Testimonials data={landingPageData.Clients} />
-      {/* Gallery components */}
-      <AllGallery data={landingPageData.Gallery} />
-      {/* contact components */}
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <Router>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path="/about" element={<About data={data.About} />} />
+          <Route path="/products" element={<Products data={data.Products} />} />
+          <Route path="/product/:id" element={<AboutProduct data={data.Products} />} />
+          <Route path="/services" element={<Services data={data.Services} />} />
+          <Route path="/service/:id" element={<AboutService data={data.Services} />} /> {/* Corrected route */}
+          <Route path="/partners" element={<Partners data={data.Partners} />} />
+          <Route path="/clients" element={<Clients data={data.Clients} />} />
+          <Route path="/gallery" element={<AllGallery data={data.Gallery} />} />
+        </Routes>
+        <Contact data={data.Contact} />
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

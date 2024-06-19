@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const Navigation = (props) => {
+const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -11,11 +12,10 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
           <img 
             src="img/logo/essilogo.png" 
@@ -23,50 +23,49 @@ export const Navigation = (props) => {
             alt="logo" 
             style={{ height: '50px', width: '150px', padding: '0px', margin: '0px'}} 
           />
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <Link className="navbar-brand page-scroll" to="/">
             {/* React Landing Page */}
-          </a>{" "}
+          </Link>
         </div>
-
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#page-top" className="page-scroll">
+              <Link to="/" className="page-scroll">
                 Home
-              </a>
+              </Link>
             </li>
-            <li>
-              <a href="#about" className="page-scroll">
+            {/* <li>
+              <Link to="/about" className="page-scroll">
                 About
-              </a>
-            </li>
+              </Link>
+            </li> */}
             <li>
-              <a href="#services" className="page-scroll">
+              <Link to="/products" className="page-scroll">
                 Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#features" className="page-scroll">
+              <Link to="/services" className="page-scroll">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <Link to="/partners" className="page-scroll">
                 Partners
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <Link to="/clients" className="page-scroll">
                 Clients
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <Link to="/contact" className="page-scroll">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -74,3 +73,5 @@ export const Navigation = (props) => {
     </nav>
   );
 };
+
+export default Navigation;
