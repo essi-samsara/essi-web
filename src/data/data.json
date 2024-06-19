@@ -71,49 +71,96 @@
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "UVSS",
+      "subTitle":"Detailed information about Product 1",
       "text": "Description of Product 1",
-      "keyFeatures": "Key features of Product 1",
-      "technologyUsed": "Technology used in Product 1",
+      "keyFeatures": [
+        "Key feature 1 of Product 1",
+        "Key feature 2 of Product 1"
+      ],
+      "technologiesUsed": [
+        "Technology used 1 in Product 1",
+        "Technology used 2 in Product 1"
+      ],
       "details": "Detailed information about Product 1"
     },
     {
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "Visitors Management System",
-      "keyFeatures": "Key features of Product 1",
-      "technologyUsed": "Technology used in Product 1",
+      "subTitle":"Detailed information about Product 1",
+      "text": "Description of Product 1",
+      "keyFeatures": [
+        "Key feature 1 of Product 1",
+        "Key feature 2 of Product 1"
+      ],
+      "technologiesUsed": [
+        "Technology used 1 in Product 1",
+        "Technology used 2 in Product 1"
+      ],
       "details": "Detailed information about Product 1"
     },
     {
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "Access Control System",
-      "keyFeatures": "Key features of Product 1",
-      "technologyUsed": "Technology used in Product 1",
+      "subTitle":"Detailed information about Product 1",
+      "text": "Description of Product 1",
+      "keyFeatures": [
+        "Key feature 1 of Product 1",
+        "Key feature 2 of Product 1"
+      ],
+      "technologiesUsed": [
+        "Technology used 1 in Product 1",
+        "Technology used 2 in Product 1"
+      ],
       "details": "Detailed information about Product 1"
     },
     {
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "Face Detection & Recognition System",
-      "keyFeatures": "Key features of Product 1",
-      "technologyUsed": "Technology used in Product 1",
+      "subTitle":"Detailed information about Product 1",
+      "text": "Description of Product 1",
+      "keyFeatures": [
+        "Key feature 1 of Product 1",
+        "Key feature 2 of Product 1"
+      ],
+      "technologiesUsed": [
+        "Technology used 1 in Product 1",
+        "Technology used 2 in Product 1"
+      ],
       "details": "Detailed information about Product 1"
     },
     {
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "Video  Surveillance System",
-      "keyFeatures": "Key features of Product 1",
-      "technologyUsed": "Technology used in Product 1",
+      "subTitle":"Detailed information about Product 1",
+      "text": "Description of Product 1",
+      "keyFeatures": [
+        "Key feature 1 of Product 1",
+        "Key feature 2 of Product 1"
+      ],
+      "technologiesUsed": [
+        "Technology used 1 in Product 1",
+        "Technology used 2 in Product 1"
+      ],
       "details": "Detailed information about Product 1"
     },
     {
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "E-Parking",
-      "keyFeatures": "Key features of Product 1",
-      "technologyUsed": "Technology used in Product 1",
+      "subTitle":"Detailed information about Product 1",
+      "text": "Description of Product 1",
+      "keyFeatures": [
+        "Key feature 1 of Product 1",
+        "Key feature 2 of Product 1"
+      ],
+      "technologiesUsed": [
+        "Technology used 1 in Product 1",
+        "Technology used 2 in Product 1"
+      ],
       "details": "Detailed information about Product 1"
     }
   ],

@@ -12,7 +12,13 @@ const AboutService = ({ data }) => {
       <div className="row">
         <div className="col-md-12">
           <h2>{service.title}</h2>
-          <img src={`../${service.img}`} alt={service.title} style={{ width: '50%', marginBottom: '20px' }} />
+          <div className="row">
+            {[1, 2, 3].map(index => (
+              <div key={index} className="col-md-4 mb-4">
+                <img src={`../${service.img}`} alt={service.name} style={{ width: '100%', marginBottom: '20px' }} />
+              </div>
+            ))}
+          </div>
           <h3>Key Service</h3>
           <p>{service.text}</p>
           
