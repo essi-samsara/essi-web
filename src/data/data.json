@@ -70,9 +70,9 @@
     {
       "id": 1,
       "img": "img/products/p1.jpg",
-      "name": "UVSS",
-      "subTitle":"Detailed information about Product 1",
-      "text": "Description of Product 1",
+      "name": "Active Bollard",
+      "subTitle":"ESSI Hydraulic Bollards crash Rated for A-40KN,B- 180KN,C- 350KN.Bollard System is equipped with Integrated Electro Hydraulic Drive Unit that can operate Single or Multiple bollards in various combinations. ( It is possible to have One Drive unit to operate 3 Bollards in each Road Lane for Up to SIX lanes).The Hydraulic Fluid recommended to be used is Bio Degradable",
+      "text": "ESSI Hydraulic Bollards crash Rated for A-40KN,B- 180KN,C- 350KN.Bollard System is equipped with Integrated Electro Hydraulic Drive Unit that can operate Single or Multiple bollards in various combinations. ( It is possible to have One Drive unit to operate 3 Bollards in each Road Lane for Up to SIX lanes).The Hydraulic Fluid recommended to be used is Bio Degradable",
       "keyFeatures": [
         "Key feature 1 of Product 1",
         "Key feature 2 of Product 1"
@@ -86,9 +86,9 @@
     {
       "id": 1,
       "img": "img/products/p1.jpg",
-      "name": "Visitors Management System",
-      "subTitle":"Detailed information about Product 1",
-      "text": "Description of Product 1",
+      "name": "Road Blockers",
+      "subTitle":"ESSI Road Blocker offers maximum security for highly sensitive, entry-exit point against unauthorized vehicles of all sizes and weights. Crash tests carried out under the supervision of the TV (Technical Inspection Agency) with an impact of a 7.5 ton truck traveling at 80 km/h certify the high reliability of the Road Blocker , heavy duty vehicles at highSpeed is also reliably stopped.The Road Blockers DSP are designed to remain fully operational after the impact and consequently continue to guarantee the full level of security.",
+      "text": "ESSI Road Blocker offers maximum security for highly sensitive, entry-exit point against unauthorized vehicles of all sizes and weights. Crash tests carried out under the supervision of the TV (Technical Inspection Agency) with an impact of a 7.5 ton truck traveling at 80 km/h certify the high reliability of the Road Blocker , heavy duty vehicles at highSpeed is also reliably stopped.The Road Blockers DSP are designed to remain fully operational after the impact and consequently continue to guarantee the full level of security.",
       "keyFeatures": [
         "Key feature 1 of Product 1",
         "Key feature 2 of Product 1"
@@ -102,9 +102,9 @@
     {
       "id": 1,
       "img": "img/products/p1.jpg",
-      "name": "Access Control System",
-      "subTitle":"Detailed information about Product 1",
-      "text": "Description of Product 1",
+      "name": "Tyre Killers",
+      "subTitle":"The ESSI Tyre Killers offers vulnerable installations, a high level of security against unauthorized vehicles forcibly entering or exiting the premises. If a vehicle  attempts to break through, both the tyres and axles will be destroyed and entrance of the vehicle will definitely be prevented. The ESSI Tyre Killers can be installed individually or in combination with other ESSI products to create a secure and impenetrable vehicle checkpoint.",
+      "text": "The ESSI Tyre Killers offers vulnerable installations, a high level of security against unauthorized vehicles forcibly entering or exiting the premises. If a vehicle  attempts to break through, both the tyres and axles will be destroyed and entrance of the vehicle will definitely be prevented. The ESSI Tyre Killers can be installed individually or in combination with other ESSI products to create a secure and impenetrable vehicle checkpoint.",
       "keyFeatures": [
         "Key feature 1 of Product 1",
         "Key feature 2 of Product 1"
@@ -119,8 +119,8 @@
       "id": 1,
       "img": "img/products/p1.jpg",
       "name": "Face Detection & Recognition System",
-      "subTitle":"Detailed information about Product 1",
-      "text": "Description of Product 1",
+      "subTitle":"Our advanced Face Detection and Recognition System offers cutting-edge technology for secure and efficient identification. Utilizing high-precision algorithms, it accurately detects and recognizes faces in real-time, ensuring quick and reliable access control. The system seamlessly integrates with existing security infrastructure, providing detailed logs and analytics for enhanced monitoring. Ideal for high-security environments, it supports multiple authentication methods and offers robust protection against unauthorized access, ensuring a secure and user-friendly experience for your organization.",
+      "text": "Our advanced Face Detection and Recognition System offers cutting-edge technology for secure and efficient identification. Utilizing high-precision algorithms, it accurately detects and recognizes faces in real-time, ensuring quick and reliable access control. The system seamlessly integrates with existing security infrastructure, providing detailed logs and analytics for enhanced monitoring. Ideal for high-security environments, it supports multiple authentication methods and offers robust protection against unauthorized access, ensuring a secure and user-friendly experience for your organization.",
       "keyFeatures": [
         "Key feature 1 of Product 1",
         "Key feature 2 of Product 1"
@@ -134,13 +134,20 @@
     {
       "id": 1,
       "img": "img/products/p1.jpg",
-      "name": "Video  Surveillance System",
+      "name": "Boom Barriers",
       "subTitle":"Detailed information about Product 1",
-      "text": "Description of Product 1",
+      "text": "ESSI offer an exclusive range of Automatic Boom Barriers which are used for providing security at the entry as well as exit points of toll tax areas, official spaces and other areas as well. We offer them with several in-built features as anti crash device which is offered to suspend the movement of any barrier.This can be interfaced with any Access Control System, Surveillance System and Traffic Monitoring System as well to provide high security",
       "keyFeatures": [
-        "Key feature 1 of Product 1",
-        "Key feature 2 of Product 1"
-      ],
+    "Compact hydraulic unit with motor, pump, solenoid valve, and high pressure hydraulic cylinder.",
+    "Red flashing light in blocking element.",
+    "Emergency operation during power failure using hand pump.",
+    "Control in separate control box.",
+    "Blocking height: A-650mm/ B-800mm.",
+    "Available impact/crash strengths: DSP1-450kN, DSP2-600kN, DSP3-900kN, DSP4-1250kN, and DSP5-2500kN.",
+    "Can be standard/automatic control/fully automatic operational with central command and control for multiple units with video feeds, 2-way voice communication, and central operation control with data logging.",
+    "Long term corrosion protection through galvanizing and 3 layers of bonded plastic 4S.",
+    "DRDO-CCE (R&D) and Certified for confirming compliance with stated impact strength/crash rating and equivalence to ASTM f 2656-07 / UK PAS / DOS K ratings."
+  ],
       "technologiesUsed": [
         "Technology used 1 in Product 1",
         "Technology used 2 in Product 1"
@@ -150,9 +157,9 @@
     {
       "id": 1,
       "img": "img/products/p1.jpg",
-      "name": "E-Parking",
+      "name": "Flap-Barriers",
       "subTitle":"Detailed information about Product 1",
-      "text": "Description of Product 1",
+      "text": "ESSI also offer an exclusive range of Retractable Flap Barrier which is  fabricated using sturdy material to ensure long service life. These are user  friendly and open up in less than a time of .8 seconds. Our barriers are  incorporated with access control system to ensure automatic clearance, while keeping accurate record. Our Flap Barriers are easy to operate as well.",
       "keyFeatures": [
         "Key feature 1 of Product 1",
         "Key feature 2 of Product 1"
