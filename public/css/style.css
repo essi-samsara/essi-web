@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -240,7 +240,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 250px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -711,4 +711,51 @@ label {
 
 .modal-body p {
   text-align: left;
+}
+
+
+/* Products.css */
+
+.product-container {
+  marginTop: 20px;
+  padding: 20px;
+}
+
+.product-container.col-md-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .product-container.col-sm-12 {
+    display: block; /* Remove flex display for small screens */
+  }
+}
+
+.products-image {
+  flex: 1;
+}
+
+.service-desc {
+  flex: 2;
+  marginLeft: 20px;
+  textAlign: left;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.view-more-btn {
+  marginTop: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  borderRadius: 5px;
+  cursor: pointer;
+  textDecoration: none;
+  boxShadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }

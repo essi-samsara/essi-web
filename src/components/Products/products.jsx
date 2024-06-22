@@ -18,18 +18,21 @@ const Products = ({ data }) => {
             in wide range of security domains.
           </p>
         </div>
-        <div className="row">
+        <div className="row" style={{marginTop:'30px'}}>
           {data ? (
             data.map((product, index) => (
               <div
                 key={`${product.name}-${index}`}
-                className="col-md-12"
-                style={{ marginTop: "20px", display: 'flex', alignItems: 'center', justifyContent:'center', padding:'20px' }}
+                className="col-md-12 col-sm-12 product-container"
               >
-                <div className="products-image" style={{ flex: '1' }}>
-                  <img src={product.img} alt={product.name} style={{ width: '100%' }} />
+                <div className="products-image" style={{ flex: "1" }}>
+                  <img
+                    src={product.img}
+                    alt={product.name}
+                    style={{ width: "100%" }}
+                  />
                 </div>
-                <div className="service-desc" style={{ flex: '2', marginLeft: '20px', textAlign: 'left' }}>
+                <div className="service-desc" style={{ flex: "2", marginLeft: "20px", textAlign: "left" }}>
                   <h3>{product.name}</h3>
                   <p>{product.text}</p>
                   <button

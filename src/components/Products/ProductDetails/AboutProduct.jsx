@@ -20,27 +20,28 @@ const AboutProduct = ({ data }) => {
               </div>
             ))}
           </div>
-          <h3>Overview</h3>
-          <p>{product.details}</p>
-          <div className="row">
-          <div className="col-md-6">
-              <h3>Key Features</h3>
-              <ul>
+          <div className="row" style={{marginBottom:'10px'}}>
+            <div className="col-md-8">
+              <h3>Key Features:</h3>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                 {product.keyFeatures.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
             </div>
-            <div className="col-md-6">
+            
+          </div>
+          <div className="row" style={{marginBottom:'50px'}}>
+            
+            <div className="col-md-8">
               <h3>Technology Used</h3>
-              <ul>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                 {product.technologiesUsed.map((tech, index) => (
                   <li key={index}>{tech}</li>
                 ))}
               </ul>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

@@ -12,10 +12,10 @@ const Header = ({ data }) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-10 col-md-offset-1 intro-text">
-                <h1>{title || "Loading"} <span>Security</span></h1>
-                <p>{paragraph || "Loading"}</p>
-                <a href="#features" className="btn btn-custom btn-lg page-scroll">
+              <div className="col-md-12 intro-text">
+                <h1>{title || "Integrated Security"} <span>Solutions</span></h1>
+                <p>{paragraph || "ESSI provides a comprehensive solution to secure premises from every possible threat through use of its Extensive Knowledge and Expertise"}</p>
+                <a href="#home" className="btn btn-custom btn-lg page-scroll">
                   Learn More
                 </a>
               </div>
