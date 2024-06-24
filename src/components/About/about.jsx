@@ -84,7 +84,7 @@ Tailored to meet the requirement of each client
         </div> */}
 
         <div className="row" style={{ marginTop: '30px' }}>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12 col-md-12">
             <div className="about-text">
               <h3>Message from the CEO</h3>
               <p>“We are committed to enhancing customer satisfaction by understanding their needs correctly, developing the most appropriate solutions, and providing superior products and systems at competitive prices. Our mission is to explore new horizons in application development, quality of products, service, and customer support, grounded in our experience, knowledge, and strategic alliances. We aim to leave a significant mark on the business process and offerings through a commitment to ethics, research, and corporate social responsibility.”– Abhay K. Jha, CEO and MD</p>
