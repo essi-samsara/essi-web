@@ -436,7 +436,7 @@ header .intro-text {
 .products-image img {
   width: 80%;
   height: auto;
-  border-radius: 1%;
+  border-radius: 6%;
   display: block;
 }
 
