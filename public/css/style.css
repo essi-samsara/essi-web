@@ -323,6 +323,22 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+.same-size {
+  width: 100%;
+  max-width: 150px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the images */
+}
+
+@media (min-width: 768px) {
+  .same-size {
+    max-width: 100%; /* Adjust the width for larger screens */
+    height: 200px; /* Set a specific height */
+    object-fit: cover; /* Ensure the images cover the set dimensions */
+  }
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;

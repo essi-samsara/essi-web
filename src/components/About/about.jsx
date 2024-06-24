@@ -5,18 +5,19 @@ const About = ({ data }) => {
 
   return (
     <div id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-6 col-md-3">
-            <img src="img/main/2.png" className="img-responsive" alt="" />
-            <img src="img/main/3.png" className="img-responsive" alt="" />
-          </div>
-          <div className="col-xs-6 col-md-3">
-            <img src="img/main/4.png" className="img-responsive" alt="" />
-            <img src="img/main/5.png" className="img-responsive" alt="" />
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
+    <div className="container">
+      <div className="row">
+        <div className="col-xs-6 col-md-3">
+          <img src="img/main/img1.png" className="img-responsive same-size" alt="" />
+          <img src="img/main/img3.png" className="img-responsive same-size" alt="" />
+        </div>
+        <div className="col-xs-6 col-md-3">
+          <img src="img/main/img4.png" className="img-responsive same-size" alt="" />
+          <img src="img/main/img2.png" className="img-responsive same-size" alt="" />
+        </div>
+        <div className="col-xs-12 col-md-6">
+          <div className="about-text">
+  
               <h2>About Us</h2>
               <p>{paragraph || "ESSI is a leading player in the Security, Transportation, Tolling, Parking, Smart Card Solution, Biometrics and RF Identification. Our focus is to develop customized solutions derived from the needs of the customer & the knowledge of cutting edge technology in association with the world leaders. We deliver effective solutions to a wide variety of terrorism-driven security challenges. We go to great lengths to guarantee a superior level of professionalism, discretion and confidentiality. The success of ESSI Integrated Technologies is based on award winning products, forging client relationships, understanding client’s requirements, meeting client’s needs consistently.The close personal involvement of our principles in the daily operation of each account, our commitment to the highest quality service, and our aggressive cost control procedures enable us to provide the best value in the industry. ESSI has been a pioneer in Application Development, Manufacturing, System Integration and Turn Key Project implementation for Integrated Security System, Access Control, Video Surveillance, Tolling and Parking & Intelligent Traffic Monitoring System.ESSI strives for to be your first choice to address your security needs swiftly and proficiently."}</p>
               {/* <h3>Why Choose Us?</h3> */}
