@@ -45,24 +45,24 @@ const About = ({ data }) => {
           </div>
         </div>
 
-        <div className="row" style={{ marginTop: '30px' }}>
-          <div className="col-xs-12 col-md-4">
-            <div className="about-text">
-              <h3>Our Mission</h3>
+        <div className="row" style={{ marginTop: '30px', gap:'10px' }}>
+          <div className="col-xs-12 col-md-4" style={{padding:'10px'}}>
+          <div className="about-text" style={{ border: '1px solid black', padding: '10px',paddingBottom:'55px', borderRadius: '7px' , backgroundColor: '#FFF8F8' }}>
+          <h3>Our Mission</h3>
               <p>We are committed to become the unswerving provider of efficient integrated security solutions by furnishing our ability to formulate new technologies and produce value for our customers, employees and partners.
 
 </p>
             </div>
           </div>
-          <div className="col-xs-12 col-md-4">
-            <div className="about-text">
+          <div className="col-xs-12 col-md-4" style={{padding:'10px'}}>
+          <div className="about-text" style={{ border: '1px solid black', padding: '10px', borderRadius: '7px' , backgroundColor: '#FFF8F8' }}>
               <h3>Achievements</h3>
               <p>Our achievements include successfully implementing security systems for high-profile locations such as the Prime Minister’s Residence, Parliament House Complex, and Delhi International Airport. We have been recognized for our innovation and excellence in security systems integration by various prestigious organizations.</p>
             </div>
           </div>
-          <div className="col-xs-12 col-md-4">
-            <div className="about-text">
-              <h3>Why Choose ESSI ?</h3>
+          <div className="col-xs-12 col-md-4" style={{padding:'10px'}}>
+          <div className="about-text" style={{ border: '1px solid black', padding: '10px',paddingBottom:'36px', borderRadius: '7px', backgroundColor: '#FFF8F8' }}>
+          <h3>Why Choose ESSI ?</h3>
               <p>Recognized for our pioneering efforts in security and automation.
 Extensive knowledge across various security domains.
 Serving government, defense, and private sector clients.
