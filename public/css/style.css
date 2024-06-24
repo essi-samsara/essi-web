@@ -205,16 +205,32 @@ a:focus,
 }
 /* Header Section */
 .intro {
+  position: relative;
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  overflow: hidden;
+  background: url(../img/background.jpeg) center center no-repeat; /* Directly set background image */
   background-size: cover;
-  -o-background-size: cover;
 }
+
+.intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+.intro * {
+  position: relative;
+  z-index: 2; /* Ensure text and other content appear above the overlay */
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
