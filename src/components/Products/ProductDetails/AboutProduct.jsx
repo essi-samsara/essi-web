@@ -19,7 +19,7 @@ const AboutProduct = ({ data }) => {
                 <img 
                   src={`../${img}`} 
                   alt={product.name} 
-                  style={{ width: '100%', marginBottom: '20px' }} 
+                  style={{ width: '100%', height: '200px', objectFit: 'cover', marginBottom: '20px' }} 
                 />
               </div>
             ))}
