@@ -14,9 +14,13 @@ const AboutProduct = ({ data }) => {
           <h2>{product.name}</h2>
           <p>{product.subTitle}</p>
           <div className="row">
-            {[1, 2, 3].map(index => (
+            {product.imgs.map((img, index) => (
               <div key={index} className="col-md-4 mb-4">
-                <img src={`../${product.img}`} alt={product.name} style={{ width: '100%', marginBottom: '20px' }} />
+                <img 
+                  src={`../${img}`} 
+                  alt={product.name} 
+                  style={{ width: '100%', marginBottom: '20px' }} 
+                />
               </div>
             ))}
           </div>

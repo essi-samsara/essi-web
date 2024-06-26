@@ -69,7 +69,11 @@
   "Products": [
     {
       "id": 1,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/activebollard1.jpg",
+        "img/products/activebollard2.jfif",
+        "img/products/activebollard3.jpg"
+      ],
       "name": "Active Bollard",
       "subTitle":"ESSI Hydraulic Bollards crash Rated for A-40KN,B- 180KN,C- 350KN.Bollard System is equipped with Integrated Electro Hydraulic Drive Unit that can operate Single or Multiple bollards in various combinations. ( It is possible to have One Drive unit to operate 3 Bollards in each Road Lane for Up to SIX lanes).The Hydraulic Fluid recommended to be used is Bio Degradable",
       "text": "ESSI Hydraulic Bollards crash Rated for A-40KN,B- 180KN,C- 350KN.Bollard System is equipped with Integrated Electro Hydraulic Drive Unit that can operate Single or Multiple bollards in various combinations. ( It is possible to have One Drive unit to operate 3 Bollards in each Road Lane for Up to SIX lanes).The Hydraulic Fluid recommended to be used is Bio Degradable",
@@ -91,8 +95,11 @@
     },
     {
       "id": 2,
-      "img": "img/products/p1.jpg",
-      "name": "Road Blockers",
+      "imgs":[
+        "img/products/roadblocker1.jpg",
+        "img/products/roadblocker2.jpg",
+        "img/products/roadblocker3.jfif"
+      ],      "name": "Road Blockers",
       "subTitle":"ESSI Road Blocker offers maximum security for highly sensitive, entry-exit point against unauthorized vehicles of all sizes and weights. Crash tests carried out under the supervision of the TV (Technical Inspection Agency) with an impact of a 7.5 ton truck traveling at 80 km/h certify the high reliability of the Road Blocker , heavy duty vehicles at highSpeed is also reliably stopped.The Road Blockers DSP are designed to remain fully operational after the impact and consequently continue to guarantee the full level of security.",
       "text": "ESSI Road Blocker offers maximum security for highly sensitive, entry-exit point against unauthorized vehicles of all sizes and weights. Crash tests carried out under the supervision of the TV (Technical Inspection Agency) with an impact of a 7.5 ton truck traveling at 80 km/h certify the high reliability of the Road Blocker , heavy duty vehicles at highSpeed is also reliably stopped.The Road Blockers DSP are designed to remain fully operational after the impact and consequently continue to guarantee the full level of security.",
       "keyFeatures": [
@@ -113,7 +120,11 @@
     },
     {
       "id": 3,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/tyrekiller1.jfif",
+        "img/products/tyrekiller2.jfif",
+        "img/products/tyrekiller3.jpg"
+      ],
       "name": "Tyre Killers",
       "subTitle":"The ESSI Tyre Killers offers vulnerable installations, a high level of security against unauthorized vehicles forcibly entering or exiting the premises. If a vehicle  attempts to break through, both the tyres and axles will be destroyed and entrance of the vehicle will definitely be prevented. The ESSI Tyre Killers can be installed individually or in combination with other ESSI products to create a secure and impenetrable vehicle checkpoint.",
       "text": "The ESSI Tyre Killers offers vulnerable installations, a high level of security against unauthorized vehicles forcibly entering or exiting the premises. If a vehicle  attempts to break through, both the tyres and axles will be destroyed and entrance of the vehicle will definitely be prevented. The ESSI Tyre Killers can be installed individually or in combination with other ESSI products to create a secure and impenetrable vehicle checkpoint.",
@@ -138,7 +149,11 @@
     
     {
       "id": 4,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/boom1.jfif",
+        "img/products/boom2.jpg",
+        "img/products/boom3.jfif"
+      ],
       "name": "Boom Barriers",
       "subTitle":"ESSI offer an exclusive range of Automatic Boom Barriers which are used for providing security at the entry as well as exit points of toll tax areas, official spaces and other areas as well. We offer them with several in-built features as anti crash device which is offered to suspend the movement of any barrier.",
       "text": "ESSI offer an exclusive range of Automatic Boom Barriers which are used for providing security at the entry as well as exit points of toll tax areas, official spaces and other areas as well. We offer them with several in-built features as anti crash device which is offered to suspend the movement of any barrier.This can be interfaced with any Access Control System, Surveillance System and Traffic Monitoring System as well to provide high security",
@@ -161,9 +176,13 @@
     },
     {
       "id": 5,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/flap1.jfif",
+        "img/products/flap2.png",
+        "img/products/flap3.jfif"
+      ],
       "name": "Flap-Barriers",
-      "subTitle":"Detailed information about Product 1",
+      "subTitle":"ESSI also offer an exclusive range of Retractable Flap Barrier which is  fabricated using sturdy material to ensure long service life. These are user  friendly and open up in less than a time of .8 seconds. Our barriers are  incorporated with access control system to ensure automatic clearance, while keeping accurate record. Our Flap Barriers are easy to operate as well",
       "text": "ESSI also offer an exclusive range of Retractable Flap Barrier which is  fabricated using sturdy material to ensure long service life. These are user  friendly and open up in less than a time of .8 seconds. Our barriers are  incorporated with access control system to ensure automatic clearance, while keeping accurate record. Our Flap Barriers are easy to operate as well.",
       "keyFeatures": [
         "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",

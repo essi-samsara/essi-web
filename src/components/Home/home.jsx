@@ -15,7 +15,7 @@ const Header = ({ data }) => {
               <div className="col-md-12 intro-text">
                 <h1>{title || "Integrated Security"} <span>Solutions</span></h1>
                 <p>{paragraph || "ESSI provides a comprehensive solution to secure premises from every possible threat through use of its Extensive Knowledge and Expertise"}</p>
-                <a href="#home" className="btn btn-custom btn-lg page-scroll">
+                <a href="#about" className="btn btn-custom btn-lg page-scroll">
                   Learn More
                 </a>
               </div>
@@ -27,6 +27,6 @@ const Header = ({ data }) => {
       <ClientsComponent data={Clientsdata.Clients} />
     </header>
   );
-};
+};  
 
 export default Header;

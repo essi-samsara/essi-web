@@ -27,7 +27,7 @@ const Products = ({ data }) => {
               >
                 <div className="products-image" style={{ flex: "1" }}>
                   <img
-                    src={product.img}
+                    src={product.imgs[0]}
                     alt={product.name}
                     style={{ width: "100%" }}
                   />
