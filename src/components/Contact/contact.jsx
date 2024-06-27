@@ -1,5 +1,7 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import React, { useState, useEffect } from "react";
+
+// Declare grecaptcha as a global variable
+/* global grecaptcha */
 
 const initialState = {
   name: "",
@@ -9,6 +11,20 @@ const initialState = {
 
 const Contact = ({ data }) => {
   const [formData, setFormData] = useState(initialState);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [recaptchaVerified, setRecaptchaVerified] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (window.recaptchaLoaded) {
+        clearInterval(interval);
+      }
+    }, 100);
+
+    window.verifyCallback = (token) => {
+      setRecaptchaVerified(true);
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,26 +38,48 @@ const Contact = ({ data }) => {
     setFormData({ ...initialState });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
 
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_USER_ID" // Replace with your User ID from EmailJS dashboard
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
+    try {
+      if (!recaptchaVerified) {
+        throw new Error("reCAPTCHA verification failed. Please try again.");
+      }
+
+      const token = grecaptcha.getResponse();
+      console.log('reCAPTCHA token:', token);
+
+      // Send the form data along with the reCAPTCHA token to SheetDB
+      const formDataToSend = new FormData();
+      formDataToSend.append("data[name]", formData.name);
+      formDataToSend.append("data[email]", formData.email);
+      formDataToSend.append("data[message]", formData.message);
+
+      // Add created_date
+      const createdDate = new Date().toISOString();
+      formDataToSend.append("data[created_date]", createdDate);
+
+      // Add the reCAPTCHA token
+      formDataToSend.append("data[recaptcha_token]", token);
+
+      fetch("https://sheetdb.io/api/v1/phhh0f4sh5nrf", {
+        method: "POST",
+        body: formDataToSend,
+      })
+        .then((response) => response.json())
+        .then((html) => {
+          console.log(html);
+          setSuccessMessage("Your message was successfully sent!");
           clearForm();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          setSuccessMessage("There was an error sending your message.");
+        });
+    } catch (err) {
+      console.error("reCAPTCHA error:", err);
+      setSuccessMessage("There was an error with reCAPTCHA. Please try again.");
+    }
   };
 
   return (
@@ -57,7 +95,7 @@ const Contact = ({ data }) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="contactForm" validate onSubmit={handleSubmit}>
+              <form name="contactForm" validate="true" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -100,10 +138,16 @@ const Contact = ({ data }) => {
                     required
                   ></textarea>
                 </div>
+                <div id="recaptcha" className="form-group" style={{ marginBottom: '10px' }}></div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button type="submit" className="btn btn-custom btn-lg" disabled={!recaptchaVerified}>
                   Send Message
                 </button>
+                {successMessage && (
+                  <div className="alert alert-success" style={{ marginTop: '10px' }}>
+                    {successMessage}
+                  </div>
+                )}
               </form>
             </div>
           </div>
