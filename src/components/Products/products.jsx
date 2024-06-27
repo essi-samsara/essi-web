@@ -32,7 +32,7 @@ const Products = ({ data }) => {
                     style={{ width: "100%" }}
                   />
                 </div>
-                <div className="service-desc" style={{ flex: "2", marginLeft: "20px", textAlign: "left" }}>
+                <div className="service-desc" style={{ flex: "2", marginLeft: "20px", textAlign: "justify" }}>
                   <h3>{product.name}</h3>
                   <p>{product.text}</p>
                   <button

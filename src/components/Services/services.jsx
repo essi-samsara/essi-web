@@ -23,7 +23,7 @@ const Services = (props) => {
               <div key={`${service.title}-${index}`} className="col-xs-6 col-md-3 mb-4">
                 <i className={service.icon}></i>
                 <h3>{service.title}</h3>
-                <p className="text-left">{service.text}</p>
+                <p className="text-left" style={{ textAlign: "justify" }}>{service.text}</p>
                 <button
                   onClick={() => handleViewMore(service.id)}
                   style={{

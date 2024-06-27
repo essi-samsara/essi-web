@@ -39,7 +39,7 @@ const AboutProduct = ({ data }) => {
             
             <div className="col-md-8">
               <h3>Technology Used</h3>
-              <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px', textAlign: 'justify' }}>
                 {product.technologiesUsed.map((tech, index) => (
                   <li key={index}>{tech}</li>
                 ))}
