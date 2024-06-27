@@ -14,9 +14,13 @@ const AboutProduct = ({ data }) => {
           <h2>{product.name}</h2>
           <p>{product.subTitle}</p>
           <div className="row">
-            {[1, 2, 3].map(index => (
+            {product.imgs.map((img, index) => (
               <div key={index} className="col-md-4 mb-4">
-                <img src={`../${product.img}`} alt={product.name} style={{ width: '100%', marginBottom: '20px' }} />
+                <img 
+                  src={`../${img}`} 
+                  alt={product.name} 
+                  style={{ width: '100%', height: '200px', objectFit: 'cover', marginBottom: '20px' }} 
+                />
               </div>
             ))}
           </div>
@@ -35,7 +39,7 @@ const AboutProduct = ({ data }) => {
             
             <div className="col-md-8">
               <h3>Technology Used</h3>
-              <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px', textAlign: 'justify' }}>
                 {product.technologiesUsed.map((tech, index) => (
                   <li key={index}>{tech}</li>
                 ))}

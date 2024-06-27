@@ -69,10 +69,14 @@
   "Products": [
     {
       "id": 1,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/activebollard1.jpg",
+        "img/products/activebollard.jfif",
+        "img/products/activebollard2.jpg"
+      ],
       "name": "Active Bollard",
-      "subTitle":"ESSI Hydraulic Bollards crash Rated for A-40KN,B- 180KN,C- 350KN.Bollard System is equipped with Integrated Electro Hydraulic Drive Unit that can operate Single or Multiple bollards in various combinations. ( It is possible to have One Drive unit to operate 3 Bollards in each Road Lane for Up to SIX lanes).The Hydraulic Fluid recommended to be used is Bio Degradable",
-      "text": "ESSI Hydraulic Bollards crash Rated for A-40KN,B- 180KN,C- 350KN.Bollard System is equipped with Integrated Electro Hydraulic Drive Unit that can operate Single or Multiple bollards in various combinations. ( It is possible to have One Drive unit to operate 3 Bollards in each Road Lane for Up to SIX lanes).The Hydraulic Fluid recommended to be used is Bio Degradable",
+      "subTitle":"ESSI Hydraulic Bollards are crash-rated for A-40KN, B-180KN, and C-350KN. Equipped with an integrated electro-hydraulic drive unit, they can operate single or multiple bollards. One drive unit can manage up to three bollards per lane across six lanes.",
+      "text": "ESSI Hydraulic Bollards are crash-rated for A-40KN, B-180KN, and C-350KN. Equipped with an integrated electro-hydraulic drive unit, they can operate single or multiple bollards. One drive unit can manage up to three bollards per lane across six lanes.",
       "keyFeatures": [
         "Compact hydraulic unit with motor, pump, solenoid valve and high pressure hydraulic cylinder.",
         "Red flashing light in blocking element.",
@@ -85,16 +89,19 @@
         "DRDO- CCE (R&D) and Certified for confirming compliance with stated impact strength/ crash rating and equivalence to  ASTM f 2656 -07 / UK PAS / DOS K ratings."
        ],
       "technologiesUsed": [
-        "The Road Blocker is operated by high speed hydraulic cylinders. A power pack containing an electric motor – pump assembly and an accumulator/handle for manual operation (in case of power failure) is installed up to a distance of 20 meters from the barrier in all weatherproof lockable steel casing on a concrete Base. The operation time for moving the blocker up & down can be from 2 to 6 seconds. When activated, the extremely heavy blocking segment will extend and block the entry. The average blocking height is 650 mm. With a dynamic road blocker, the barrier is 'lifted' and can therefore reach a blocking height of 850 mm. Due to the  eye-catching warning color and the warning lights the blocking segment is clearly visible to approaching vehicles which allows the vehicles to stop in good time. In the lowered position the Road Blocker is absolutely unobtrusive and flush with the road surface."
+        "ESSI Hydraulic Bollards are crash-rated for A-40KN, B-180KN, and C-350KN. Equipped with an integrated electro-hydraulic drive unit, they can operate single or multiple bollards. One drive unit can manage up to three bollards per lane across six lanes.."
       ],
       "details": "Detailed information about Product 1"
     },
     {
       "id": 2,
-      "img": "img/products/p1.jpg",
-      "name": "Road Blockers",
-      "subTitle":"ESSI Road Blocker offers maximum security for highly sensitive, entry-exit point against unauthorized vehicles of all sizes and weights. Crash tests carried out under the supervision of the TV (Technical Inspection Agency) with an impact of a 7.5 ton truck traveling at 80 km/h certify the high reliability of the Road Blocker , heavy duty vehicles at highSpeed is also reliably stopped.The Road Blockers DSP are designed to remain fully operational after the impact and consequently continue to guarantee the full level of security.",
-      "text": "ESSI Road Blocker offers maximum security for highly sensitive, entry-exit point against unauthorized vehicles of all sizes and weights. Crash tests carried out under the supervision of the TV (Technical Inspection Agency) with an impact of a 7.5 ton truck traveling at 80 km/h certify the high reliability of the Road Blocker , heavy duty vehicles at highSpeed is also reliably stopped.The Road Blockers DSP are designed to remain fully operational after the impact and consequently continue to guarantee the full level of security.",
+      "imgs":[
+        "img/products/roadblocker1.jpg",
+        "img/products/roadblocker2.jpg",
+        "img/products/roadblocker3.jpg"
+      ],      "name": "Road Blockers",
+      "subTitle":"ESSI Road Blockers provide maximum security against unauthorized vehicles at entry-exit points. Crash-tested with a 7.5-ton truck at 80 km/h, they ensure reliability and continue to function fully after impact, offering robust security for high-sensitivity areas.",
+      "text": "ESSI Road Blockers provide maximum security against unauthorized vehicles at entry-exit points. Crash-tested with a 7.5-ton truck at 80 km/h, they ensure reliability and continue to function fully after impact, offering robust security for high-sensitivity areas.",
       "keyFeatures": [
         "Compact hydraulic unit with motor, pump, solenoid valve and high pressure hydraulic cylinder.",
         "Red flashing light in blocking element.",
@@ -113,10 +120,14 @@
     },
     {
       "id": 3,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/tyrekiller1.jpg",
+        "img/products/tyrekiller2.jpg",
+        "img/products/tyrekiller3.jpg"
+      ],
       "name": "Tyre Killers",
-      "subTitle":"The ESSI Tyre Killers offers vulnerable installations, a high level of security against unauthorized vehicles forcibly entering or exiting the premises. If a vehicle  attempts to break through, both the tyres and axles will be destroyed and entrance of the vehicle will definitely be prevented. The ESSI Tyre Killers can be installed individually or in combination with other ESSI products to create a secure and impenetrable vehicle checkpoint.",
-      "text": "The ESSI Tyre Killers offers vulnerable installations, a high level of security against unauthorized vehicles forcibly entering or exiting the premises. If a vehicle  attempts to break through, both the tyres and axles will be destroyed and entrance of the vehicle will definitely be prevented. The ESSI Tyre Killers can be installed individually or in combination with other ESSI products to create a secure and impenetrable vehicle checkpoint.",
+      "subTitle":"ESSI Tyre Killers ensure high security against unauthorized vehicles. Designed to destroy tires and axles of intruding vehicles, they prevent forced entry or exit. They can be installed individually or with other ESSI products for an impenetrable vehicle checkpoint.",
+      "text": "ESSI Tyre Killers ensure high security against unauthorized vehicles. Designed to destroy tires and axles of intruding vehicles, they prevent forced entry or exit. They can be installed individually or with other ESSI products for an impenetrable vehicle checkpoint.",
       "keyFeatures": [
         "Blocking spikes in 60 blocking positions, approx. 450 mm over ground level.",
         "Distance between blocking spikes 200 mm.",
@@ -138,10 +149,14 @@
     
     {
       "id": 4,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/boombarrier1.jpg",
+        "img/products/boombarrier3.jpg",
+        "img/products/boombarrier2.jpg"
+      ],
       "name": "Boom Barriers",
-      "subTitle":"ESSI offer an exclusive range of Automatic Boom Barriers which are used for providing security at the entry as well as exit points of toll tax areas, official spaces and other areas as well. We offer them with several in-built features as anti crash device which is offered to suspend the movement of any barrier.",
-      "text": "ESSI offer an exclusive range of Automatic Boom Barriers which are used for providing security at the entry as well as exit points of toll tax areas, official spaces and other areas as well. We offer them with several in-built features as anti crash device which is offered to suspend the movement of any barrier.This can be interfaced with any Access Control System, Surveillance System and Traffic Monitoring System as well to provide high security",
+      "subTitle":"ESSI Automatic Boom Barriers secure entry and exit points at toll areas, offices etc. Featuring anti-crash devices, they integrate with access control, surveillance, and traffic monitoring systems, ensuring high security and reliable operation for various applications.",
+      "text": "ESSI Automatic Boom Barriers secure entry and exit points at toll areas, offices etc. Featuring anti-crash devices, they integrate with access control, surveillance, and traffic monitoring systems, ensuring high security and reliable operation for various applications.",
       "keyFeatures": [
         "Security at the entry as well as exit points.",
         "The limit switches for slowdown during both opening and closing can be adjusted both mechanically and electronically.",
@@ -161,10 +176,254 @@
     },
     {
       "id": 5,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/flapbarrier1.jpg",
+        "img/products/flapbarrier2.jpg",
+        "img/products/flapbarrier3.jpg"
+      ],
       "name": "Flap-Barriers",
-      "subTitle":"Detailed information about Product 1",
-      "text": "ESSI also offer an exclusive range of Retractable Flap Barrier which is  fabricated using sturdy material to ensure long service life. These are user  friendly and open up in less than a time of .8 seconds. Our barriers are  incorporated with access control system to ensure automatic clearance, while keeping accurate record. Our Flap Barriers are easy to operate as well.",
+      "subTitle":"ESSI Retractable Flap Barriers, made from durable materials, open in less than 0.8 seconds. Integrated with access control systems, they ensure automatic clearance and accurate record-keeping. User-friendly and easy to operate, they offer efficient and secure access management.",
+      "text": "ESSI Retractable Flap Barriers, made from durable materials, open in less than 0.8 seconds. Integrated with access control systems, they ensure automatic clearance and accurate record-keeping. User-friendly and easy to operate, they offer efficient and secure access management.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 6,
+      "imgs":[
+        "img/products/facerecognition1.jpg",
+        "img/products/facerecognition2.webp",
+        "img/products/facerecognition3.jpg"
+      ],
+      "name": "Face Detection and Recognition",
+      "subTitle":"Our face detection and recognition system accurately identifies individuals in real-time, enhancing security and access control. Utilizing advanced algorithms and AI, it provides quick and reliable identification, making it ideal for high-security environments, workplaces, and public spaces.",
+      "text": "Our face detection and recognition system accurately identifies individuals in real-time, enhancing security and access control. Utilizing advanced algorithms and AI, it provides quick and reliable identification, making it ideal for high-security environments, workplaces, and public spaces.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 8,
+      "imgs":[
+        "img/products/rfid1.webp",
+        "img/products/rfid2.jpg",
+        "img/products/rfid.jpg"
+      ],
+      "name": "RFID Access Control",
+      "subTitle":"Our RFID access control system ensures secure and convenient entry management. Utilizing RFID technology, it provides reliable authentication for personnel and assets, streamlining access to restricted areas. Ideal for businesses, warehouses, and facilities requiring controlled access and monitoring.",
+      "text": "Our RFID access control system ensures secure and convenient entry management. Utilizing RFID technology, it provides reliable authentication for personnel and assets, streamlining access to restricted areas. Ideal for businesses, warehouses, and facilities requiring controlled access and monitoring.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 9,
+      "imgs":[
+        "img/products/nms1.jpg",
+        "img/products/nms2.webp",
+        "img/products/nms3.jpg"
+      ],
+      "name": "Network Management System:",
+      "subTitle":"Our network management system provides comprehensive monitoring and management of IT networks. It ensures security, and troubleshooting, supporting efficient network operations. Perfect for organizations needing robust network oversight and proactive issue resolution to maintain seamless connectivity.",
+      "text": "Our network management system provides comprehensive monitoring and management of IT networks. It ensures security, and troubleshooting, supporting efficient network operations. Perfect for organizations needing robust network oversight and proactive issue resolution to maintain seamless connectivity.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 10,
+      "imgs":[
+        "img/products/enterprise1.jpg",
+        "img/products/enterprise2.jpg",
+        "img/products/enterprise3.jpg"
+      ],
+      "name": "Enterprise Security Operations Center",
+      "subTitle":"Our enterprise security operations center offers centralized monitoring and management of security systems. It integrates advanced technologies for threat detection, incident response, and real-time analysis, ensuring comprehensive protection and rapid resolution of security issues for large organizations and enterprises.",
+      "text": "Our enterprise security operations center offers centralized monitoring and management of security systems. It integrates advanced technologies for threat detection, incident response, and real-time analysis, ensuring comprehensive protection and rapid resolution of security issues for large organizations and enterprises.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 11,
+      "imgs":[
+        "img/products/uvss1.jpg",
+        "img/products/uvss2.jpg",
+        "img/products/uvss.jpg"
+      ],
+      "name": "Under-Vehicle Imaging and Analytics",
+      "subTitle":"ESSI's Under-Vehicle Imaging and Analytics system enhances security by providing detailed imaging and analysis of vehicle undersides. This system detects hidden threats and anomalies, ensuring thorough inspections and heightened security at critical entry points, ideal for high-security facilities and checkpoints.",
+      "text": "ESSI's Under-Vehicle Imaging and Analytics system enhances security by providing detailed imaging and analysis of vehicle undersides. This system detects hidden threats and anomalies, ensuring thorough inspections and heightened security at critical entry points, ideal for high-security facilities and checkpoints.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 12,
+      "imgs":[
+        "img/products/emergency1.jpg",
+        "img/products/emergency2.webp",
+        "img/products/emergency3.jpg"
+      ],
+      "name": "Emergency Communications and Distress Alarm",
+      "subTitle":"ESSI's Emergency Communications and Distress Alarm system ensures rapid response during emergencies. Integrated with advanced communication technologies, it provides immediate alerts and reliable communication channels, enhancing safety in critical situations across various environments.",
+      "text": "ESSI's Emergency Communications and Distress Alarm system ensures rapid response during emergencies. Integrated with advanced communication technologies, it provides immediate alerts and reliable communication channels, enhancing safety and security for personnel in critical situations across various environments.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 13,
+      "imgs":[
+        "img/products/anpr1.jpg",
+        "img/products/anpr2.jpg",
+        "img/products/anpr3.jpg"
+      ],
+      "name": "License Plate Detection and Law Enforcement Assistance System",
+      "subTitle":"ESSI's License Plate Detection and Law Enforcement Assistance System offers precise and efficient vehicle identification. Leveraging advanced technology, it aids law enforcement with accurate data, improving traffic management, security, and enforcement activities in various settings, including urban areas and highways.",
+      "text": "ESSI's License Plate Detection and Law Enforcement Assistance System offers precise and efficient vehicle identification. Leveraging advanced technology, it aids law enforcement with accurate data, improving traffic management, security, and enforcement activities in various settings, including urban areas and highways.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 14,
+      "imgs":[
+        "img/products/fence1.jpg",
+        "img/products/fence2.png",
+        "img/products/fence3.webp"
+      ],
+      "name": "Fencing and Perimeter Intrusion Detection",
+      "subTitle":"ESSI's Fencing and Perimeter Intrusion Detection system provides robust security for perimeter areas. Equipped with advanced sensors and detection technologies, it effectively identifies and alerts to intrusions, ensuring enhanced protection for facilities, preventing unauthorized access and breaches.",
+      "text": "ESSI's Fencing and Perimeter Intrusion Detection system provides robust security for perimeter areas. Equipped with advanced sensors and detection technologies, it effectively identifies and alerts to intrusions, ensuring enhanced protection for facilities, preventing unauthorized access and breaches.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 15,
+      "imgs":[
+        "img/products/tracking1.jpg",
+        "img/products/trackin2.webp",
+        "img/products/tracking3.jfif"
+      ],
+      "name": "Tracking and Telematics",
+      "subTitle":"ESSI's Tracking and Telematics system offers real-time monitoring and management of assets and vehicles. Utilizing advanced GPS and telematics technologies, it provides accurate tracking, enhances fleet management, and improves operational efficiency for businesses and organizations.",
+      "text": "ESSI's Tracking and Telematics system offers real-time monitoring and management of assets and vehicles. Utilizing advanced GPS and telematics technologies, it provides accurate tracking, enhances fleet management, and improves operational efficiency for businesses and organizations.",
+      "keyFeatures": [
+        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
+        "Personalization for all type of ticket readers or contactless antenna.",
+        "With direction indication, guiding passenger to entry and exit.",
+        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
+        "High flow rates of people depending on reader validation reaction speed.",
+        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
+        "A dissuasive access control in one or both directions."
+      ],
+      "technologiesUsed": [
+        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+      ],
+      "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 16,
+      "imgs":[
+        "img/products/command1.jpg",
+        "img/products/command3.jpg",
+        "img/products/command2.jfif"
+      ],
+      "name": "Integrated Command and Control",
+      "subTitle":"ESSI's Integrated Command and Control system centralizes security management and operations. Combining advanced monitoring, communication, and control technologies, it ensures efficient coordination, real-time situational awareness, and rapid response to incidents, enhancing overall security and operational effectiveness.",
+      "text": "ESSI's Integrated Command and Control system centralizes security management and operations. Combining advanced monitoring, communication, and control technologies, it ensures efficient coordination, real-time situational awareness, and rapid response to incidents, enhancing overall security and operational effectiveness.",
       "keyFeatures": [
         "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
         "Personalization for all type of ticket readers or contactless antenna.",
@@ -180,42 +439,90 @@
       "details": "Detailed information about Product 1"
     }
   ],
-  "Clients": [
+  "Clients":
+  [
     {
-      "img": "img/clients/1.jpg",
-      "text": "\"Parliament House\"",
+      "img": "img/clients/2.jpg",
       "name": "Parliament House"
     },
     {
-      "img": "img/clients/2.jpg",
-      "text": "\"Delhi Secretariat\"",
+      "img": "img/clients/3.jpg",
+      "name": "British Council, Delhi"
+    },
+    {
+      "img": "img/clients/4.avif",
+      "name": "Embassy Of Kuwait"
+    },
+    {
+      "img": "img/clients/5.avif",
+      "name": "Reserve Bank of India (Jaipur, Bhopal, Kanpur, Chennai, Pune)"
+    },
+    {
+      "img": "img/clients/6.webp",
       "name": "Delhi Secretariat"
     },
     {
-      "img": "img/clients/3.jpg",
-      "text": "\"Delhi Internatinal Airport Ltd.\"",
-      "name": "Delhi Internatinal Airport Ltd."
+      "img": "img/clients/7.jpg",
+      "name": "Ram Manohar Lohia Hospital, Delhi"
     },
     {
-      "img": "img/clients/4.jpg",
-      "text": "\"Ministry of Defence\"",
+      "img": "img/clients/8.avif",
       "name": "Ministry of Defence"
     },
     {
-      "img": "img/clients/5.jpg",
-      "text": "\"Karkardooma Court , Delhi\"",
-      "name": "Karkardooma Court , Delhi"
+      "img": "img/clients/9.jpg",
+      "name": "Delhi International Airport Ltd."
     },
     {
-      "img": "img/clients/6.jpg",
-      "text": "\"Jaypee Sports\"",
+      "img": "img/clients/10.webp",
+      "name": "Safdarjung Hospital, Delhi"
+    },
+    {
+      "img": "img/clients/11.webp",
+      "name": "LHMC, Delhi"
+    },
+    {
+      "img": "img/clients/12.webp",
+      "name": "Rashtrapati Bhawan"
+    },
+    {
+      "img": "img/clients/13.avif",
+      "name": "Karkardooma Court, Delhi"
+    },
+    {
+      "img": "img/clients/14.jpg",
+      "name": "Brigade Group - Sheraton & MLCP (Bangalore)"
+    },
+    {
+      "img": "img/clients/15.jpg",
+      "name": "INS, Rajali"
+    },
+    {
+      "img": "img/clients/16.jpg",
       "name": "Jaypee Sports"
+    },
+    {
+      "img": "img/clients/17.jfif",
+      "name": "ASL (DRDO) Jodhpur"
+    },
+    {
+      "img": "img/clients/18.webp",
+      "name": "ONGC, New Delhi"
+    },
+    {
+      "img": "img/clients/19.webp",
+      "name": "Krishna Janam Bhumi"
+    },
+    {
+      "img": "img/clients/20.jfif",
+      "name": "Bhabha Atomic Research Centre, RMP Mysore"
+    },
+    {
+      "img": "img/clients/21.jpg",
+      "name": "Lucknow Secretariat"
     }
-    
-    
-    
-  ],
-  "Partners": [
+  ]
+  ,  "Partners": [
     {
       "img": "img/partners/ibm-logo.jpeg"
     },
@@ -236,9 +543,9 @@
     }
   ],
   "Contact": {
-    "address": "Mercantile House, 15 KG Marg, 101 New Delhi, Delhi 110001, IN ",
-    "phone": "+91-0000000000",
-    "email": "info@essi.co.in",
+    "address": "Elkosta Security Systems India 01 Mercantile House, 15 Kasturba Gandhi Marg, New Delhi 110001 INDIA ",
+    "phone": "+91 011 4151 9899",
+    "email": "sales@essi.co.in",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -246,75 +553,47 @@
   "Services": [
     {
       "id":1,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/command1.jpg",
+        "img/products/command3.jpg",
+        "img/products/command2.jfif"
+      ],
       "icon": "fa fa-comments-o",
-      "title": "Consulting",
-      "text": "ESSI Integrated Technologies Pvt. Ltd. offers consultancy in various security domains including IT security, physical security, and fraud prevention through advanced technologies, serving both private and public sectors efficiently.",
+      "title": "Turnkey Project Implementation",
+      "text": "ESSI's Turnkey Project Implementation Services offer end-to-end solutions, managing all project phases from planning to execution. With expertise in design, integration, and deployment, we ensure seamless implementation, timely delivery, and optimal performance, catering to diverse industry needs.",
       "overview": "ESSI Integrated Technologies Pvt. Ltd. offers consultancy in various security domains including IT security, physical security, and fraud prevention through advanced technologies, serving both private and public sectors efficiently.",
       "service": [
-        "Deep technical skills and continual research.",
-        "Expertise understanding of clients dilemma or problem.",
-        "Highly specialized and experience of all relevant domains team.",
-        "Client needs our top most priority.",
-        "24x7 assistance for clients by specialized professionals.",
-        "Crystal clear reporting style.",
-        "Excellent presentation skills.",
-        "100% confident for our solution success.",
-        "All associated hazards and risk management.",
-        "Believe in freeing clients from all relevant headaches.",
-        "Believe in providing best and cheapest solution.",
-        "We consider our clients as our in mates and their headache is ours."      
+        "Civil and Electrical work",
+        "IT Infrastructure and Networking" ,
+        "Installation",
+        "Integration and Commissioning",
+        "Testing",
+        "System Operations",
+        "Maintenance and Repair",
+        "Technology Refresh"        
       ]
     },
     {
       "id":2,
-      "img": "img/products/p1.jpg",
+      "imgs":[
+        "img/products/facerecognition1.jpg",
+        "img/products/enterprise1.jpg",
+        "img/products/nms2.webp"
+      ],
       "icon": "fa fa-bullhorn",
-      "title": "System Integration",
-      "text": "ESSI provides comprehensive System Integration solutions and services for existing and customized applications. We specialize in application development and service-oriented applications for our clients.",
-      "overview": "ESSI provides comprehensive System Integration solutions and services for existing and customized applications. We specialize in application development and service-oriented applications for our clients.",
+      "title": "Design, Development, Training",
+      "text": "ESSI's comprehensive services encompass design, development, and training. We create innovative designs, develop robust and user-friendly systems, and provide extensive training programs to ensure seamless operation and user proficiency. Our holistic approach ensures optimal performance and client satisfaction across various projects.",
+      "overview": "ESSI's comprehensive services encompass design, development, and training. We create innovative designs, develop robust and user-friendly systems, and provide extensive training programs to ensure seamless operation and user proficiency. Our holistic approach ensures optimal performance and client satisfaction across various projects.",
       "service": [
-        "Continual research of existing products and software components.",
-        "Efficient and full utilization of resources integrated.",
-        "Use of latest and best technologies.",
-        "Integration with existing or new hardware’s.",
-        "Prevent excess use of external resources as much possible without compromising application performance.",
-        "Clients can rely on us for their demands.",
-        "24 x 7 support for troubleshooting or any other assistance.",
-        "Experts research and development team."     
-      ]
-    },
-    {
-      "id":3,
-      "icon": "fa fa-group",
-      "img": "img/products/p1.jpg",
-      "title": "Operation",
-      "text": "ESSI offers thorough training and support to customers for smooth system execution post-installation. We provide detailed step-by-step manuals to ensure users can easily understand and operate the system.",
-      "overview": "Our training program is well structured and equipped with all the required material. We provide well organized classroom facility where proper steps from taking attendance to feedback by customer are followed strictly. After completion of program we also provide review classes, if required and tests to clear that the operators are now fully furnish and ready to operate our system without any troubles. After classes , catalogs and manuals containing  clear and strictly non ambiguous step by step explanation of software in such a way that even person from non – technical background would be able to operate easily through reading this manual, besides this all the troubleshoot possible and steps to resolve them are also incorporated in manual for better use and functionality.",
-      "service": [
-        "Rigorously scheduled classes.",
-        "Proper study material has provided.",
-        "Clear and explained Operating Manual is provided.",
-        "ESSI operator for 24 X 7 support inside the premises on demand.",
-        "24 x 7 customer support.",
-        "Review classes and performance tests for motivation and evaluation."      
-      ]
-    },
-    {
-      "id":4,
-      "img": "img/products/p1.jpg",
-      "icon": "fa fa-magic",
-      "title": "Annual maintenance contract",
-      "text": "In today's competitive era, quality is paramount.To help our customers achieve optimal throughput, we offer Annual Maintenance Contracts, ensuring high-quality output ",
-      "overview": "ESSI Integrated Technologies Pvt.Ltd. provides consultancy services in wide range of security domains i.e. IT security, physical security and fraud prevention through information technologies and other latest technologies use, to both the private and public sectors. \n Our consulting services are aimed at offering you the best possible professional solution for your personal or company's security fears and/or problems.",
-      "service": [
-        "Provides services between 9 am to 9 pm, Monday to Sunday and 24/7, 365 days with 6 hours resolution commitment.",
-        "Giant technical team to take care on maintenance.",
-        "Better service levels at lower overall cost.",
-        "You can repair the product you purchase many times until it is no longer repairable, then it will be replaced with the same product of its like kind and quality.",
-        "Certified technicians skilled in cross-platform environments.",
-        "Ability to provide or supplement in-house maintenance.",
-        "Get special prices on the consumables."      
+        "Modernization",
+" Documentation and Technical ",
+"Publications",
+" Technology Scouting",
+" Technical Study and Analysis",
+" Logistics Support",
+" Operational Training",
+"Maintenance and Technical Training",
+" Assembly, Integration, Test, and Evaluation"    
       ]
     }
   ]

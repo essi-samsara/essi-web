@@ -13,9 +13,13 @@ const AboutService = ({ data }) => {
         <div className="col-md-12">
           <h2>{service.title}</h2>
           <div className="row">
-            {[1, 2, 3].map(index => (
+            {service.imgs.map((img, index) => (
               <div key={index} className="col-md-4 mb-4">
-                <img src={`../${service.img}`} alt={service.name} style={{ width: '100%', marginBottom: '20px' }} />
+                <img 
+                  src={`../${img}`} 
+                  alt={service.name} 
+                  style={{ width: '100%', height: '200px', objectFit: 'cover', marginBottom: '20px' }} 
+                />
               </div>
             ))}
           </div>

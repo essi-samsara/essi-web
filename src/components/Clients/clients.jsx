@@ -23,7 +23,7 @@ const Clients = ({ data }) => {
                     </div>
                     <div className="testimonial-content">
                       <div className="testimonial-meta">{client.name}</div>
-                      <p>"{client.text}"</p>
+                      {/* <p>"{client.text}"</p> */}
                     </div>
                   </div>
                 </div>

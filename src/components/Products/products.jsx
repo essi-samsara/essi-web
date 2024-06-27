@@ -27,12 +27,12 @@ const Products = ({ data }) => {
               >
                 <div className="products-image" style={{ flex: "1" }}>
                   <img
-                    src={product.img}
+                    src={product.imgs[0]}
                     alt={product.name}
                     style={{ width: "100%" }}
                   />
                 </div>
-                <div className="service-desc" style={{ flex: "2", marginLeft: "20px", textAlign: "left" }}>
+                <div className="service-desc" style={{ flex: "2", marginLeft: "20px", textAlign: "justify" }}>
                   <h3>{product.name}</h3>
                   <p>{product.text}</p>
                   <button

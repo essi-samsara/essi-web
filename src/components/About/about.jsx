@@ -19,7 +19,7 @@ const About = ({ data }) => {
           <div className="about-text">
   
               <h2>About Us</h2>
-              <p>{paragraph || "ESSI is a leading player in the Security, Transportation, Tolling, Parking, Smart Card Solution, Biometrics and RF Identification. Our focus is to develop customized solutions derived from the needs of the customer & the knowledge of cutting edge technology in association with the world leaders. We deliver effective solutions to a wide variety of terrorism-driven security challenges. We go to great lengths to guarantee a superior level of professionalism, discretion and confidentiality. The success of ESSI Integrated Technologies is based on award winning products, forging client relationships, understanding client’s requirements, meeting client’s needs consistently.The close personal involvement of our principles in the daily operation of each account, our commitment to the highest quality service, and our aggressive cost control procedures enable us to provide the best value in the industry. ESSI has been a pioneer in Application Development, Manufacturing, System Integration and Turn Key Project implementation for Integrated Security System, Access Control, Video Surveillance, Tolling and Parking & Intelligent Traffic Monitoring System.ESSI strives for to be your first choice to address your security needs swiftly and proficiently."}</p>
+              <p style={{ textAlign: 'justify'}}>{paragraph || "ESSI is a leading player in the fields of security, transportation, tolling, parking, smart card solutions, biometrics, and RF identification. Our focus is on developing customized solutions derived from the needs of our customers and leveraging cutting-edge technology in association with world leaders. We deliver effective solutions to a wide variety of terrorism-driven security challenges, ensuring a superior level of professionalism, discretion, and confidentiality. The success of ESSI Integrated Technologies is built on award-winning products, forging strong client relationships, understanding client requirements, and consistently meeting client needs. The close personal involvement of our principals in the daily operations of each account, our commitment to the highest quality service, and our aggressive cost control procedures enable us to provide the best value in the industry. ESSI has been a pioneer in application development, manufacturing, system integration, and turnkey project implementation for integrated security systems, access control, video surveillance, tolling and parking, and intelligent traffic monitoring systems. We strive to be your first choice to address your security needs swiftly and proficiently."}</p>
               {/* <h3>Why Choose Us?</h3> */}
               {/* <div className="list-style row">
                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -83,11 +83,11 @@ Tailored to meet the requirement of each client
           </div>
         </div> */}
 
-        <div className="row" style={{ marginTop: '30px' }}>
+        <div className="row" style={{ marginTop: '30px' , textAlign:"center"}}>
           <div className="col-xs-12 col-md-12">
-            <div className="about-text">
+            <div className="about-text" style={{ textAlign:"left"}}>
               <h3>Message from the CEO</h3>
-              <p>“We are committed to enhancing customer satisfaction by understanding their needs correctly, developing the most appropriate solutions, and providing superior products and systems at competitive prices. Our mission is to explore new horizons in application development, quality of products, service, and customer support, grounded in our experience, knowledge, and strategic alliances. We aim to leave a significant mark on the business process and offerings through a commitment to ethics, research, and corporate social responsibility.”– Abhay K. Jha, CEO and MD</p>
+              <p style={{ textAlign:"justify"}}>“We are committed to enhancing customer satisfaction by understanding their needs correctly, developing the most appropriate solutions, and providing superior products and systems at competitive prices. Our mission is to explore new horizons in application development, quality of products, service, and customer support, grounded in our experience, knowledge, and strategic alliances. We aim to leave a significant mark on the business process and offerings through a commitment to ethics, research, and corporate social responsibility.”<br></br>– Abhay K. Jha, CEO and MD</p>
             </div>
           </div>
         </div>
