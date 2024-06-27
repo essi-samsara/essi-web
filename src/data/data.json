@@ -71,7 +71,7 @@
       "id": 1,
       "imgs":[
         "img/products/activebollard1.jpg",
-        "img/products/activebollard.jfif",
+        "img/products/activebollard.png",
         "img/products/activebollard2.jpg"
       ],
       "name": "Active Bollard",
@@ -441,83 +441,102 @@
   ],
   "Clients":
   [
-    {
+    { "id":"1",
       "img": "img/clients/2.jpg",
       "name": "Parliament House"
     },
     {
+      "id":"2",
       "img": "img/clients/3.jpg",
       "name": "British Council, Delhi"
     },
     {
-      "img": "img/clients/4.avif",
+      "id":"3",
+      "img": "img/clients/4.jpg",
       "name": "Embassy Of Kuwait"
     },
     {
-      "img": "img/clients/5.avif",
+      "id":"4",
+      "img": "img/clients/5.jpg",
       "name": "Reserve Bank of India (Jaipur, Bhopal, Kanpur, Chennai, Pune)"
     },
     {
-      "img": "img/clients/6.webp",
+      "id":"5",
+      "img": "img/clients/6.jpg",
       "name": "Delhi Secretariat"
     },
     {
+      "id":"6",
       "img": "img/clients/7.jpg",
       "name": "Ram Manohar Lohia Hospital, Delhi"
     },
     {
-      "img": "img/clients/8.avif",
+      "id":"7",
+      "img": "img/clients/8.jpg",
       "name": "Ministry of Defence"
     },
     {
+      "id":"8",
       "img": "img/clients/9.jpg",
       "name": "Delhi International Airport Ltd."
     },
     {
-      "img": "img/clients/10.webp",
+      "id":"9",
+      "img": "img/clients/10.jpg",
       "name": "Safdarjung Hospital, Delhi"
     },
     {
-      "img": "img/clients/11.webp",
+      "id":"10",
+      "img": "img/clients/11.jpg",
       "name": "LHMC, Delhi"
     },
     {
-      "img": "img/clients/12.webp",
+      "id":"11",
+      "img": "img/clients/12.jpg",
       "name": "Rashtrapati Bhawan"
     },
     {
-      "img": "img/clients/13.avif",
+      "id":"12",
+      "img": "img/clients/13.jpg",
       "name": "Karkardooma Court, Delhi"
     },
     {
+      "id":"13",
       "img": "img/clients/14.jpg",
       "name": "Brigade Group - Sheraton & MLCP (Bangalore)"
     },
     {
+      "id":"14",
       "img": "img/clients/15.jpg",
       "name": "INS, Rajali"
     },
     {
+      "id":"15",
       "img": "img/clients/16.jpg",
       "name": "Jaypee Sports"
     },
     {
-      "img": "img/clients/17.jfif",
+      "id":"16",
+      "img": "img/clients/17.jpg",
       "name": "ASL (DRDO) Jodhpur"
     },
     {
-      "img": "img/clients/18.webp",
+      "id":"17",
+      "img": "img/clients/18.jpg",
       "name": "ONGC, New Delhi"
     },
     {
-      "img": "img/clients/19.webp",
+      "id":"18",
+      "img": "img/clients/19.jpg",
       "name": "Krishna Janam Bhumi"
     },
     {
-      "img": "img/clients/20.jfif",
+      "id":"19",
+      "img": "img/clients/21.jpg",
       "name": "Bhabha Atomic Research Centre, RMP Mysore"
     },
     {
+      "id":"20",
       "img": "img/clients/21.jpg",
       "name": "Lucknow Secretariat"
     }

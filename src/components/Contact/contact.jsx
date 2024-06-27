@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-
-// Declare grecaptcha as a global variable
 /* global grecaptcha */
+import React, { useState, useEffect } from "react";
 
 const initialState = {
   name: "",
@@ -15,14 +13,19 @@ const Contact = ({ data }) => {
   const [recaptchaVerified, setRecaptchaVerified] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (window.recaptchaLoaded) {
-        clearInterval(interval);
-      }
-    }, 100);
+    const loadRecaptcha = () => {
+      const script = document.createElement("script");
+      script.src = "https://www.google.com/recaptcha/api.js";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    };
 
-    window.verifyCallback = (token) => {
-      setRecaptchaVerified(true);
+    loadRecaptcha();
+    window.verifyRecaptchaCallback = (token) => {
+      if (token) {
+        setRecaptchaVerified(true);
+      }
     };
   }, []);
 
@@ -53,7 +56,7 @@ const Contact = ({ data }) => {
       const formDataToSend = new FormData();
       formDataToSend.append("data[name]", formData.name);
       formDataToSend.append("data[email]", formData.email);
-      formDataToSend.append("data[message]", formData.message);
+      formDataToSend.append("data[query]", formData.message);
 
       // Add created_date
       const createdDate = new Date().toISOString();
@@ -71,6 +74,8 @@ const Contact = ({ data }) => {
           console.log(html);
           setSuccessMessage("Your message was successfully sent!");
           clearForm();
+          grecaptcha.reset();
+          setRecaptchaVerified(false);
         })
         .catch((error) => {
           console.error("Error:", error);
@@ -138,7 +143,12 @@ const Contact = ({ data }) => {
                     required
                   ></textarea>
                 </div>
-                <div id="recaptcha" className="form-group" style={{ marginBottom: '10px' }}></div>
+                <div
+                  className="g-recaptcha"
+                  data-sitekey="6LdjpQIqAAAAADX0TgfWh0XcB1A3s4kPW1H5vq_v"
+                  data-callback="verifyRecaptchaCallback"
+                  style={{ marginBottom: '10px' }}
+                ></div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg" disabled={!recaptchaVerified}>
                   Send Message

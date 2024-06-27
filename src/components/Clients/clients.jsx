@@ -16,10 +16,10 @@ const Clients = ({ data }) => {
         <div className="row">
           {data
             ? data.map((client, index) => (
-                <div key={`${client.name}-${index}`} className="col-md-4">
+                <div key={`${client.name}-${index}`} className="col-12 col-sm-6 col-md-4">
                   <div className="testimonial">
                     <div className="testimonial-image">
-                      <img src={client.img} alt={client.name} />
+                      <img src={client.img} alt={client.name} className="img-fluid"  />
                     </div>
                     <div className="testimonial-content">
                       <div className="testimonial-meta">{client.name}</div>
