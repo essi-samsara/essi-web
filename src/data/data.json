@@ -506,68 +506,45 @@
       "name": "Brigade Group - Sheraton & MLCP (Bangalore)"
     },
     {
-      "id":"14",
+      "id":"15",
       "img": "img/clients/15.jpg",
       "name": "INS, Rajali"
     },
     {
-      "id":"15",
-      "img": "img/clients/16.jpg",
-      "name": "Jaypee Sports"
-    },
-    {
       "id":"16",
-      "img": "img/clients/17.jpg",
-      "name": "ASL (DRDO) Jodhpur"
-    },
-    {
-      "id":"17",
-      "img": "img/clients/18.jpg",
-      "name": "ONGC, New Delhi"
-    },
-    {
-      "id":"18",
-      "img": "img/clients/19.jpg",
-      "name": "Krishna Janam Bhumi"
-    },
-    {
-      "id":"19",
-      "img": "img/clients/21.jpg",
-      "name": "Bhabha Atomic Research Centre, RMP Mysore"
-    },
-    {
-      "id":"20",
-      "img": "img/clients/21.jpg",
-      "name": "Lucknow Secretariat"
+      "img": "img/clients/16.jpg",
+      "name": "INS, Rajali"
     }
+    
+
+  
+    
   ]
   ,  "Partners": [
-    {
-      "img": "img/partners/ibm-logo.jpeg"
-    },
-    {
-      "img": "img/partners/Dlink Logo.jpeg"
-    },
-    {
-      "img": "img/partners/Cisco_logo.svg.jpeg"
-    },
-    {
-      "img": "img/partners/axis.jpeg"
-    },
-    {
-      "img": "img/partners/basler.jpeg"
-    },
-    {
-      "img": "img/partners/Bosch-logo.jpeg"
-    }
+    
+      "img/partners/p1/2.png",
+    
+     "img/partners/p1/3.png",
+    
+     "img/partners/p1/4.png",
+     "img/partners/p1/5.png",
+    "img/partners/p1/6.png",
+   "img/partners/p1/7.png",
+     "img/partners/p1/8.png",
+    "img/partners/p1/9.png",
+     "img/partners/p1/10.jpg",
+    "img/partners/p1/11.webp",
+    "img/partners/p1/12.png",
+     "img/partners/p1/13.png"
+    
   ],
   "Contact": {
     "address": "Elkosta Security Systems India 01 Mercantile House, 15 Kasturba Gandhi Marg, New Delhi 110001 INDIA ",
     "phone": "+91 011 4151 9899",
     "email": "sales@essi.co.in",
+    "gstno":"07AABCE4357Q1Z6",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "linkedin": "twitter.com"
   },
   "Services": [
     {

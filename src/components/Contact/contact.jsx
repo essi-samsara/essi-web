@@ -93,7 +93,9 @@ const Contact = ({ data }) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
+              
               <div className="section-title">
+
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
@@ -130,6 +132,7 @@ const Contact = ({ data }) => {
                       />
                     </div>
                   </div>
+                  
                 </div>
                 <div className="form-group">
                   <textarea
@@ -187,8 +190,16 @@ const Contact = ({ data }) => {
                 {data ? data.email : "Loading..."}
               </p>
             </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-briefcase"></i> GST No.
+                </span>{" "}
+                {data ? data.gstno : "Loading..."}
+              </p>
+            </div>
           </div>
-          <div className="col-md-12">
+          <div className="col-md-12" style={{marginBottom:'30px'}}>
             <div className="row">
               <div className="social">
                 <ul>
@@ -198,15 +209,11 @@ const Contact = ({ data }) => {
                     </a>
                   </li>
                   <li>
-                    <a href={data ? data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={data ? data.facebook : "/"}>
+                      <i className="fa fa-linkedin-square"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={data ? data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
