@@ -4,25 +4,28 @@ import ClientsComponent from "../Clients/clients";
 import Clientsdata from '../../data/data.json';
 
 const Header = ({ data }) => {
-  const { title = '', paragraph = '', Clients = [] } = data || {};
+  const { title = '', title2='',  paragraph = '', paragraph2='' } = data || {};
 
   return (
     <header id="home">
       <div className="intro">
-        <div className="overlay">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 intro-text">
-                <h1>{title || "Integrated Security"} <span>Solutions</span></h1>
-                <p>{paragraph || "ESSI provides comprehensive solutions to be secured from every possible threat through the Innovative application of technology for Total Security"}</p>
-                <a href="#about" className="btn btn-custom btn-lg page-scroll">
-                  Learn More
-                </a>
-              </div>
+      <div className="overlay">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 intro-text">
+              <h1>{title} <span> {title2}</span></h1>
+              <p>{paragraph} <br/> {paragraph2}</p>
+              <img
+                src="/img/intro/intro5.png"
+                className="img-fluid" 
+                alt="Image 3"
+              />
+              <h3>Homeland Security | Defence | Government | Intelligence</h3>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <About />
       <ClientsComponent data={Clientsdata.Clients} />
     </header>

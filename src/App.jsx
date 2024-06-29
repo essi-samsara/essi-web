@@ -34,16 +34,16 @@ const App = () => {
         <Navigation />
         <ScrollToTop />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path="/about" element={<About data={data.About} />} />
+          <Route path='/' element={<Home data={data.home}/>} />
+          <Route path="/about" element={<About data={data.home} />} />
           
           <Route path="/products" element={<Products data={data.Products} />} />
-          <Route path="/product/:id" element={<AboutProduct data={data.Products} />} />
+          <Route path="/product/:product_name" element={<AboutProduct data={data.Products} />} />
 
           <Route path="/services" element={<Services data={data.Services} />} />
           <Route path="/service/:id" element={<AboutService data={data.Services} />} />
 
-          <Route path="/partners" element={<Partners data={data.Partners} />} />
+          {/* <Route path="/partners" element={<Partners data={data.Partners} />} /> */}
           <Route path="/clients" element={<Clients data={data.Clients} />} />
           <Route path="/gallery" element={<AllGallery data={data.Gallery} />} />
         </Routes>

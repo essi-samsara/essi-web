@@ -26,8 +26,8 @@ const AboutService = ({ data }) => {
           <h3>Overview</h3>
           <p>{service.overview}</p>
           
-          <h3>Key Service</h3>
-          <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+          <h3>Key Services</h3>
+          <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginBottom:'40px' }}>
                 {service.service.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+/* global grecaptcha */
+import React, { useState, useEffect } from "react";
 
 const initialState = {
   name: "",
@@ -9,6 +9,25 @@ const initialState = {
 
 const Contact = ({ data }) => {
   const [formData, setFormData] = useState(initialState);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [recaptchaVerified, setRecaptchaVerified] = useState(false);
+
+  useEffect(() => {
+    const loadRecaptcha = () => {
+      const script = document.createElement("script");
+      script.src = "https://www.google.com/recaptcha/api.js";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    };
+
+    loadRecaptcha();
+    window.verifyRecaptchaCallback = (token) => {
+      if (token) {
+        setRecaptchaVerified(true);
+      }
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,26 +41,50 @@ const Contact = ({ data }) => {
     setFormData({ ...initialState });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
 
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_USER_ID" // Replace with your User ID from EmailJS dashboard
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
+    try {
+      if (!recaptchaVerified) {
+        throw new Error("reCAPTCHA verification failed. Please try again.");
+      }
+
+      const token = grecaptcha.getResponse();
+      console.log('reCAPTCHA token:', token);
+
+      // Send the form data along with the reCAPTCHA token to SheetDB
+      const formDataToSend = new FormData();
+      formDataToSend.append("data[name]", formData.name);
+      formDataToSend.append("data[email]", formData.email);
+      formDataToSend.append("data[query]", formData.message);
+
+      // Add created_date
+      const createdDate = new Date().toISOString();
+      formDataToSend.append("data[created_date]", createdDate);
+
+      // Add the reCAPTCHA token
+      formDataToSend.append("data[recaptcha_token]", token);
+
+      fetch("https://sheetdb.io/api/v1/phhh0f4sh5nrf", {
+        method: "POST",
+        body: formDataToSend,
+      })
+        .then((response) => response.json())
+        .then((html) => {
+          console.log(html);
+          setSuccessMessage("Your message was successfully sent!");
           clearForm();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+          grecaptcha.reset();
+          setRecaptchaVerified(false);
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          setSuccessMessage("There was an error sending your message.");
+        });
+    } catch (err) {
+      console.error("reCAPTCHA error:", err);
+      setSuccessMessage("There was an error with reCAPTCHA. Please try again.");
+    }
   };
 
   return (
@@ -50,14 +93,16 @@ const Contact = ({ data }) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
+              
               <div className="section-title">
+
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="contactForm" validate onSubmit={handleSubmit}>
+              <form name="contactForm" validate="true" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -87,6 +132,7 @@ const Contact = ({ data }) => {
                       />
                     </div>
                   </div>
+                  
                 </div>
                 <div className="form-group">
                   <textarea
@@ -100,10 +146,21 @@ const Contact = ({ data }) => {
                     required
                   ></textarea>
                 </div>
+                <div
+                  className="g-recaptcha"
+                  data-sitekey="6LdjpQIqAAAAADX0TgfWh0XcB1A3s4kPW1H5vq_v"
+                  data-callback="verifyRecaptchaCallback"
+                  style={{ marginBottom: '10px' }}
+                ></div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button type="submit" className="btn btn-custom btn-lg" disabled={!recaptchaVerified}>
                   Send Message
                 </button>
+                {successMessage && (
+                  <div className="alert alert-success" style={{ marginTop: '10px' }}>
+                    {successMessage}
+                  </div>
+                )}
               </form>
             </div>
           </div>
@@ -114,15 +171,26 @@ const Contact = ({ data }) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>{" "}
-                {data ? data.address : "Loading..."}
+                {data ? data.address : "Loading..."} <br/>
+                {data ? data.address1 : "Loading..."}<br/>
+                {data ? data.address2 : "Loading..."}<br/>
+                {data ? data.address3 : "Loading..."}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Landline
                 </span>{" "}
-                {data ? data.phone : "Loading..."}
+                {data ? data.landline : "Loading..."}
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-fax"></i> Fax
+                </span>{" "}
+                {data ? data.fax : "Loading..."}
               </p>
             </div>
             <div className="contact-item">
@@ -133,26 +201,30 @@ const Contact = ({ data }) => {
                 {data ? data.email : "Loading..."}
               </p>
             </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-briefcase"></i> GST No.
+                </span>{" "}
+                {data ? data.gstno : "Loading..."}
+              </p>
+            </div>
           </div>
-          <div className="col-md-12">
+          <div className="col-md-12" style={{marginBottom:'30px'}}>
             <div className="row">
               <div className="social">
                 <ul>
                   <li>
-                    <a href={data ? data.facebook : "/"}>
+                    <a target="_blank" href={data ? data.facebook : "/"}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={data ? data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a target="_blank" href={data ? data.linkedin : "/"}>
+                      <i className="fa fa-linkedin-square"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={data ? data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>

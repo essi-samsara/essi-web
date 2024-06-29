@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 const Products = ({ data }) => {
   const navigate = useNavigate();
 
-  const handleViewMore = (productId) => {
-    navigate(`/product/${productId}`);
+  const handleViewMore = (product_name) => {
+    navigate(`/product/${product_name}`);
   };
 
   return (
@@ -18,40 +18,65 @@ const Products = ({ data }) => {
             in wide range of security domains.
           </p>
         </div>
-        <div className="row" style={{marginTop:'30px'}}>
+
+        <style>
+          {`
+            .product-container {
+              margin-bottom: 30px;
+            }
+            .products-image img {
+              width: 70%;
+            }
+            .service-desc {
+              text-align: justify;
+            }
+            .service-desc button {
+              margin-top: 10px;
+              padding: 10px 20px;
+              background-color: #007bff;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              text-decoration: none;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              transition: background-color 0.3s ease;
+            }
+            .service-desc button:hover {
+              background-color: #0056b3;
+            }
+            @media (max-width: 767px) {
+              .service-desc {
+                text-align: center;
+                margin-top: 0;
+              }
+            }
+            @media (min-width: 768px) {
+              .service-desc {
+                margin-top: -15px;
+              }
+            }
+          `}
+        </style>
+
+        <div className="row" style={{ marginTop: '30px' }}>
           {data ? (
             data.map((product, index) => (
-              <div
-                key={`${product.name}-${index}`}
-                className="col-md-12 col-sm-12 product-container"
-              >
-                <div className="products-image" style={{ flex: "1" }}>
-                  <img
-                    src={product.imgs[0]}
-                    alt={product.name}
-                    style={{ width: "100%" }}
-                  />
-                </div>
-                <div className="service-desc" style={{ flex: "2", marginLeft: "20px", textAlign: "justify" }}>
-                  <h3>{product.name}</h3>
-                  <p>{product.text}</p>
-                  <button
-                    onClick={() => handleViewMore(product.id)}
-                    style={{
-                      marginTop: "10px",
-                      padding: "10px 20px",
-                      backgroundColor: "#007bff",
-                      color: "#fff",
-                      border: "none",
-                      borderRadius: "5px",
-                      cursor: "pointer",
-                      textDecoration: "none",
-                      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                      transition: "background-color 0.3s ease",
-                    }}
-                  >
-                    View More
-                  </button>
+              <div key={`${product.name}-${index}`} className="col-md-12 col-sm-12 product-container">
+                <div className="row" style={{ alignItems: 'flex-start' }}>
+                  <div className="col-md-4 col-sm-12 products-image">
+                    <img
+                      src={product.imgs[0]}
+                      alt={product.name}
+                    />
+                  </div>
+                  <div className="col-md-8 col-sm-12 service-desc">
+                    <h3>{product.name}</h3>
+                    <p style={{ textAlign:"justify"}}>{product.text}</p>
+                    <button onClick={() => handleViewMore(product.product_name)}>
+                      View More
+                    </button>
+                  </div>
                 </div>
               </div>
             ))
