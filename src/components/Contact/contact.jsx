@@ -171,15 +171,26 @@ const Contact = ({ data }) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>{" "}
-                {data ? data.address : "Loading..."}
+                {data ? data.address : "Loading..."} <br/>
+                {data ? data.address1 : "Loading..."}<br/>
+                {data ? data.address2 : "Loading..."}<br/>
+                {data ? data.address3 : "Loading..."}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Landline
                 </span>{" "}
-                {data ? data.phone : "Loading..."}
+                {data ? data.landline : "Loading..."}
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-fax"></i> Fax
+                </span>{" "}
+                {data ? data.fax : "Loading..."}
               </p>
             </div>
             <div className="contact-item">
@@ -204,12 +215,12 @@ const Contact = ({ data }) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={data ? data.facebook : "/"}>
+                    <a target="_blank" href={data ? data.facebook : "/"}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={data ? data.facebook : "/"}>
+                    <a target="_blank" href={data ? data.linkedin : "/"}>
                       <i className="fa fa-linkedin-square"></i>
                     </a>
                   </li>

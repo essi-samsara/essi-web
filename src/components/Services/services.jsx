@@ -20,8 +20,10 @@ const Services = (props) => {
         <div className="row">
           {props.data ? (
             props.data.map((service, index) => (
-              <div key={`${service.title}-${index}`} className="col-xs-6 col-md-6 mb-4" style={{ padding: "50px" }} >
-                <i className={service.icon}></i>
+              <div key={`${service.title}-${index}`} className="col-xs-6 col-md-6 mb-4" style={{ padding: "0 50px" }} >
+                <i className="icon-container">
+                  <img src={service.icon} alt="Service Icon" />
+                </i>
                 <h3>{service.title}</h3>
                 <p className="text-left" style={{ textAlign: "justify" }}>{service.text}</p>
                 <button

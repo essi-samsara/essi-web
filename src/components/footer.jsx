@@ -26,12 +26,12 @@ const Footer = () => {
         bottom: isFixed ? 0 : 'auto',
         width: '100%',
         zIndex: 100,
-        transition: 'position 0.3s ease-in-out'
+        transition: 'position 0.3s ease-in-out',
       }}
     >
       <div className="container text-center">
         <p>
-          &copy; All Rights Reserved - ESSI Integrated Technologies Pvt. Ltd{" "}
+          &copy; All Rights Reserved - ESSI Security and Defence{" "}
           <a href="http://www.essi.co.in" rel="nofollow">
             essi.co.in
           </a>

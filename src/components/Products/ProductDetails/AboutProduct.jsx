@@ -2,8 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 const AboutProduct = ({ data }) => {
-  const { id } = useParams();
-  const product = data.find(p => p.id.toString() === id);
+  const { product_name } = useParams();
+  const product = data.find(p => p.product_name.toString() === product_name);
 
   if (!product) return <p>Product not found</p>;
 

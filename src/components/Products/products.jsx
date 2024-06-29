@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 const Products = ({ data }) => {
   const navigate = useNavigate();
 
-  const handleViewMore = (productId) => {
-    navigate(`/product/${productId}`);
+  const handleViewMore = (product_name) => {
+    navigate(`/product/${product_name}`);
   };
 
   return (
@@ -73,7 +73,7 @@ const Products = ({ data }) => {
                   <div className="col-md-8 col-sm-12 service-desc">
                     <h3>{product.name}</h3>
                     <p style={{ textAlign:"justify"}}>{product.text}</p>
-                    <button onClick={() => handleViewMore(product.id)}>
+                    <button onClick={() => handleViewMore(product.product_name)}>
                       View More
                     </button>
                   </div>

@@ -258,8 +258,16 @@ a:focus,
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
 }
+.intro img {
+  width: 50%; /* Adjust image width */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  display: block; /* Ensures the image behaves as a block element */
+  margin: 0 auto; /* Center aligns the image */
+}
+
 header .intro-text {
   padding-top: 250px;
   padding-bottom: 200px;
@@ -267,9 +275,27 @@ header .intro-text {
 }
 
 
+
 @media (max-width: 768px) {
   .intro h1{
     font-size: 40px;
+  }
+  .intro img {
+    width: 100%; /* Adjust image width */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto; /* Center aligns the image */
+  }
+}
+.intro h3{
+  font-size: 20px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .intro h3{
+    font-size: 12px;
   }
   
 }
@@ -360,9 +386,9 @@ header .intro-text {
 .same-size {
   width: 100%;
   max-width: 150px; /* Set the desired width */
-  height: auto; /* Maintain aspect ratio */
+  height: 100px; /* Maintain aspect ratio */
   display: block;
-  margin: 10 auto; /* Center the images */
+
 }
 
 @media (min-width: 768px) {
@@ -417,6 +443,34 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+
+#services i.icon-container {
+  display: inline-block; /* Ensures the container behaves like an image */
+  width: 120px;
+  height: 120px;
+  /* padding: 10px 0; */
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#services i.icon-container img {
+  width: 100%; /* Makes the image fill the container */
+  height: 100%;
+  border-radius: 50%; /* Ensures the image is circular */
+  display: block; /* Removes bottom margin/padding typical of inline elements */
+}
+
+
+
+
+
+
+
+
+
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -466,6 +520,8 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
@@ -477,43 +533,34 @@ header .intro-text {
   margin-bottom: 20px;
 }
 
-/* #testimonials .testimonial {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#testimonials .testimonial-image {
-  margin-bottom: 20px;
-}
-
-#testimonials .testimonial-content {
-  padding: 20px;
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-
-#testimonials .testimonial-meta {
-  font-weight: bold;
-  font-size: 1.2em;
-} */
-
-
-
 .testimonial {
-  position: relative;
   padding: 20px;
+  display: flex;
 }
+
 .testimonial-image {
-  float: left;
+  flex: 0 0 auto; /* This keeps the image size fixed */
   margin-right: 15px;
 }
-.testimonial-image,
+
 .testimonial-image img {
   display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+.testimonial-content {
+  flex: 1 1 auto; /* Allow content to grow as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
+.testimonial-meta {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
 }
 
 .products-image {
@@ -531,21 +578,7 @@ header .intro-text {
   display: block;
 }
 
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
+
 /* Team Section */
 #team {
   padding: 100px 0;

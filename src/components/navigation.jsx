@@ -24,7 +24,6 @@ const Navigation = () => {
             style={{ height: '50px', width: '150px', padding: '0px', margin: '0px'}} 
           />
           <Link className="navbar-brand page-scroll" to="/">
-            {/* React Landing Page */}
           </Link>
         </div>
         <div
@@ -37,11 +36,7 @@ const Navigation = () => {
                 Home
               </Link>
             </li>
-            {/* <li>
-              <Link to="/about" className="page-scroll">
-                About
-              </Link>
-            </li> */}
+            
             <li>
               <Link to="/products" className="page-scroll">
                 Products
@@ -52,11 +47,7 @@ const Navigation = () => {
                 Services
               </Link>
             </li>
-            <li>
-              <Link to="/partners" className="page-scroll">
-                Partners
-              </Link>
-            </li>
+            
             <li>
               <Link to="/clients" className="page-scroll">
                 Clients

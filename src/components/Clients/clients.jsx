@@ -17,16 +17,16 @@ const Clients = ({ data }) => {
           {data
             ? data.map((client, index) => (
               
-                <div key={`${client.name}-${client.id}`} className="col-12 col-sm-6 col-md-4 col-lg-4">
-                  <div className="testimonial">
-                    <div className="testimonial-image">
-                      <img src={client.img} alt={client.name}/>
-                    </div>
-                    <div className="testimonial-content">
-                      <div className="testimonial-meta">{client.name}</div>
-                    </div>
+              <div key={`${client.name}-${client.id}`} className="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="testimonial">
+                  <div className="testimonial-image">
+                    <img src={client.img} alt={client.name} />
+                  </div>
+                  <div className="testimonial-content">
+                    <div className="testimonial-meta">{client.name}</div>
                   </div>
                 </div>
+              </div>
               ))
             : "loading"}
         </div>
