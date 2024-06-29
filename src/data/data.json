@@ -194,7 +194,7 @@
         "A dissuasive access control in one or both directions."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Flap-Barriers employ sophisticated sensor technologies and motorized mechanisms to control pedestrian access in secure environments. These systems utilize proximity sensors to detect approaching individuals, triggering motorized flaps to open or close based on access permissions. Integrated with access control systems, they authenticate users through RFID cards, biometric scans, or ticketing systems, ensuring secure and efficient passage. Flap-Barriers also incorporate safety features such as anti-tailgating sensors to prevent unauthorized entry attempts. Their design often includes robust materials for durability and weather resistance, making them suitable for indoor and outdoor installations. These technologies collectively enhance security measures, streamline pedestrian flow, and ensure reliable access control in various settings"
       ],
       "details": "Detailed information about Product 1"
     },
@@ -209,16 +209,14 @@
       "subTitle":"Our face detection and recognition system accurately identifies individuals in real-time, enhancing security and access control. Utilizing advanced algorithms and AI, it provides quick and reliable identification, making it ideal for high-security environments, workplaces, and public spaces.",
       "text": "Our face detection and recognition system accurately identifies individuals in real-time, enhancing security and access control. Utilizing advanced algorithms and AI, it provides quick and reliable identification, making it ideal for high-security environments, workplaces, and public spaces.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "High-Resolution Imaging enables detailed capture of facial features, ensuring accurate detection.",
+        "Facial Landmark Detection uses advanced algorithms to pinpoint key points such as eyes, nose, and mouth for precise analysis.",
+"Multi-Modal Integration combines infrared, 3D depth sensing, and RGB imaging to enhance reliability in diverse environmental conditions.",
+"Real-Time Processing, powered by CPUs and GPUs, enables swift analysis and response to detected faces.",
+"Privacy and Security Measures, including encryption and secure storage protocols, safeguard biometric data against unauthorized access."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Face detection and recognition systems utilize advanced technologies such as deep learning with CNNs for accurate facial analysis, multi-modal integration for diverse environmental conditions, edge computing for real-time processing, and robust privacy measures to safeguard biometric data. These technologies collectively enhance system performance and reliability across various applications."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -233,16 +231,14 @@
       "subTitle":"Our RFID access control system ensures secure and convenient entry management. Utilizing RFID technology, it provides reliable authentication for personnel and assets, streamlining access to restricted areas. Ideal for businesses, warehouses, and facilities requiring controlled access and monitoring.",
       "text": "Our RFID access control system ensures secure and convenient entry management. Utilizing RFID technology, it provides reliable authentication for personnel and assets, streamlining access to restricted areas. Ideal for businesses, warehouses, and facilities requiring controlled access and monitoring.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "RFID Technology enables contactless identification using radio frequency signals, enhancing convenience and efficiency in access management.",
+"Secure Authentication protocols ensure only authorized individuals can access designated areas or resources.",
+"Scalable Deployment allows RFID systems to be easily expanded or integrated into existing infrastructure as needed.",
+"Real-Time Monitoring capabilities provide instant visibility into access events and potential security breaches.",
+"Integration with Security Systems allows RFID access control to seamlessly interface with CCTV, alarms, and other security measures for comprehensive protection."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "RFID access control systems utilize RFID technology for contactless identification using radio frequency signals. Secure Authentication protocols ensure authorized access, while Scalable Deployment capabilities facilitate easy expansion and integration. Real-Time Monitoring provides instant access event visibility, and Integration with Security Systems enhances overall security effectiveness. These technologies collectively enhance efficiency and security in access control management."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -257,16 +253,18 @@
       "subTitle":"Our network management system provides comprehensive monitoring and management of IT networks. It ensures security, and troubleshooting, supporting efficient network operations. Perfect for organizations needing robust network oversight and proactive issue resolution to maintain seamless connectivity.",
       "text": "Our network management system provides comprehensive monitoring and management of IT networks. It ensures security, and troubleshooting, supporting efficient network operations. Perfect for organizations needing robust network oversight and proactive issue resolution to maintain seamless connectivity.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "SNMP Integration enables centralized monitoring and management of network devices, ensuring comprehensive oversight.",
+
+"Automated Discovery tools identify and map network assets and topology, optimizing resource allocation and management.",
+
+"Real-Time Performance Monitoring continuously tracks metrics such as bandwidth utilization and latency, facilitating proactive optimization.",
+
+"Alerting and Notification mechanisms promptly notify administrators of critical network issues or performance deviations, enabling swift troubleshooting.",
+
+"Cloud Integration supports remote management and scalability, enhancing flexibility and responsiveness in network operations."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Network management systems utilize SNMP (Simple Network Management Protocol) for monitoring and managing network devices. They employ automated discovery tools to identify network assets and topology, ensuring efficient resource allocation. Real-time performance monitoring tools track bandwidth utilization and network latency, optimizing network performance. Alerting mechanisms notify administrators of critical issues, enabling proactive troubleshooting and maintenance. Integration with cloud platforms facilitates remote management and scalability, enhancing flexibility and responsiveness in network operations."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -281,16 +279,18 @@
       "subTitle":"Our enterprise security operations center offers centralized monitoring and management of security systems. It integrates advanced technologies for threat detection, incident response, and real-time analysis, ensuring comprehensive protection and rapid resolution of security issues for large organizations and enterprises.",
       "text": "Our enterprise security operations center offers centralized monitoring and management of security systems. It integrates advanced technologies for threat detection, incident response, and real-time analysis, ensuring comprehensive protection and rapid resolution of security issues for large organizations and enterprises.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "Continuous Monitoring and Threat Detection capabilities provide real-time visibility into security events and potential threats across the enterprise.",
+
+"Incident Response and Management processes enable rapid detection, analysis, and mitigation of security incidents to minimize impact.",
+
+"Advanced Security Analytics leverage machine learning and AI to detect anomalous behaviors and patterns indicative of potential cyber threats.",
+
+"Integration with SIEM (Security Information and Event Management) systems aggregates and correlates security data from multiple sources for comprehensive analysis.",
+
+"24/7 Operations and Monitoring ensure constant vigilance and readiness to respond to security incidents and emerging threats promptly."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Enterprise Security Operations Centers (SOCs) leverage SIEM (Security Information and Event Management) systems for comprehensive security data aggregation and analysis. Advanced Threat Detection powered by machine learning and AI enables real-time identification and response to cyber threats. Incident Response platforms ensure swift mitigation, while integration with SOAR (Security Orchestration, Automation, and Response) streamlines operations and enhances efficiency."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -305,16 +305,14 @@
       "subTitle":"ESSI's Under-Vehicle Imaging and Analytics system enhances security by providing detailed imaging and analysis of vehicle undersides. This system detects hidden threats and anomalies, ensuring thorough inspections and heightened security at critical entry points, ideal for high-security facilities and checkpoints.",
       "text": "ESSI's Under-Vehicle Imaging and Analytics system enhances security by providing detailed imaging and analysis of vehicle undersides. This system detects hidden threats and anomalies, ensuring thorough inspections and heightened security at critical entry points, ideal for high-security facilities and checkpoints.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "Utilizes high-resolution cameras and advanced imaging technology for detailed undercarriage inspection.",
+"Integrates multiple cameras to provide a comprehensive view of the vehicle's underside in a single scan.",
+"Employs automated image processing algorithms to detect anomalies like foreign objects or modifications.",
+"Integrates with Automatic License Plate Recognition (ALPR) systems for enhanced vehicle identification and tracking.",
+"Deployed at checkpoints, secure facilities, and border crossings to enhance security while maintaining efficient traffic flow."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Under Vehicle Scanning Systems (UVSS) employ advanced technologies such as high-resolution cameras and automated image processing algorithms. These systems integrate multiple cameras to provide a detailed view of a vehicle's undercarriage in a single scan, capturing images that are analyzed in real-time to detect anomalies like foreign objects or modifications. UVSS often incorporates integration with Automatic License Plate Recognition (ALPR) systems, enhancing its capabilities for vehicle identification and tracking. Deployed at checkpoints, entrances to secure facilities, and border crossings, UVSS enhances security measures by efficiently inspecting vehicles while maintaining smooth traffic operations"
       ],
       "details": "Detailed information about Product 1"
     },
@@ -329,16 +327,14 @@
       "subTitle":"ESSI's Emergency Communications and Distress Alarm system ensures rapid response during emergencies. Integrated with advanced communication technologies, it provides immediate alerts and reliable communication channels, enhancing safety in critical situations across various environments.",
       "text": "ESSI's Emergency Communications and Distress Alarm system ensures rapid response during emergencies. Integrated with advanced communication technologies, it provides immediate alerts and reliable communication channels, enhancing safety and security for personnel in critical situations across various environments.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "Utilizes robust communication networks such as cellular, satellite, and internet protocols for reliable connectivity during emergencies.",
+"Incorporates GPS technology for precise location tracking and quick deployment of emergency responders.",
+"Automated alerting mechanisms notify authorities and designated contacts promptly in distress situations.",
+"Integration with IoT devices and sensors enables real-time monitoring of environmental conditions and health metrics.",
+"Supports public safety and emergency management efforts by enhancing communication and response coordination."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Emergency Communications and Distress Alarm systems utilize robust communication networks, GPS technology for location tracking, automated alerting mechanisms, and integration with IoT devices for real-time monitoring."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -353,16 +349,18 @@
       "subTitle":"ESSI's License Plate Detection and Law Enforcement Assistance System offers precise and efficient vehicle identification. Leveraging advanced technology, it aids law enforcement with accurate data, improving traffic management, security, and enforcement activities in various settings, including urban areas and highways.",
       "text": "ESSI's License Plate Detection and Law Enforcement Assistance System offers precise and efficient vehicle identification. Leveraging advanced technology, it aids law enforcement with accurate data, improving traffic management, security, and enforcement activities in various settings, including urban areas and highways.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "License Plate Detection systems utilize advanced optical character recognition (OCR) technology and high-resolution cameras to capture and analyze images of vehicle license plates.",
+
+"These systems employ sophisticated algorithms to extract alphanumeric characters from the captured images, enabling automated identification and processing.",
+
+"Integrated with database systems, License Plate Detection systems facilitate real-time comparison against stored records for purposes such as access control, toll collection, and law enforcement.",
+
+"The technology enhances efficiency and security in various applications, including access control, toll collection, and law enforcement.",
+
+"License Plate Detection systems ensure accurate and rapid identification of vehicles, supporting operational needs in diverse environments."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "License Plate Detection systems utilize advanced optical character recognition (OCR) technology, high-resolution cameras, and database integration for automated identification and real-time processing"
       ],
       "details": "Detailed information about Product 1"
     },
@@ -377,16 +375,18 @@
       "subTitle":"ESSI's Fencing and Perimeter Intrusion Detection system provides robust security for perimeter areas. Equipped with advanced sensors and detection technologies, it effectively identifies and alerts to intrusions, ensuring enhanced protection for facilities, preventing unauthorized access and breaches.",
       "text": "ESSI's Fencing and Perimeter Intrusion Detection system provides robust security for perimeter areas. Equipped with advanced sensors and detection technologies, it effectively identifies and alerts to intrusions, ensuring enhanced protection for facilities, preventing unauthorized access and breaches.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "Fencing and Perimeter Intrusion Detection systems utilize robust physical barriers and advanced sensor technologies to secure boundaries and detect unauthorized access.",
+
+"These systems employ sensors such as motion detectors, infrared sensors, and vibration sensors to monitor the perimeter and detect intrusions.",
+
+"Integrated with alarm systems, Fencing and Perimeter Intrusion Detection systems trigger alerts and notifications upon detecting unauthorized entry or tampering.",
+
+"The technology enhances security by providing real-time monitoring and rapid response capabilities to potential threats.",
+
+"Fencing and Perimeter Intrusion Detection systems ensure effective protection of assets and personnel by securing boundaries and deterring intrusions."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Fencing and Perimeter Intrusion Detection systems utilize advanced sensor technologies such as motion detectors, infrared sensors, and vibration sensors, integrated with alarm systems for real-time monitoring and alerts"
       ],
       "details": "Detailed information about Product 1"
     },
@@ -401,16 +401,18 @@
       "subTitle":"ESSI's Tracking and Telematics system offers real-time monitoring and management of assets and vehicles. Utilizing advanced GPS and telematics technologies, it provides accurate tracking, enhances fleet management, and improves operational efficiency for businesses and organizations.",
       "text": "ESSI's Tracking and Telematics system offers real-time monitoring and management of assets and vehicles. Utilizing advanced GPS and telematics technologies, it provides accurate tracking, enhances fleet management, and improves operational efficiency for businesses and organizations.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "Tracking and Telematics systems utilize GPS (Global Positioning System) and cellular communication technology to track the location and status of vehicles or assets in real-time.",
+
+"These systems employ sensors and telemetry devices to collect and transmit data such as location, speed, and vehicle diagnostics.",
+
+"Integrated with software platforms, Tracking and Telematics systems provide comprehensive insights into vehicle operations, fleet management, and asset utilization.",
+
+"The technology enhances efficiency by optimizing route planning, vehicle maintenance schedules, and overall fleet performance.",
+
+"Tracking and Telematics systems ensure enhanced safety, security, and operational efficiency by providing real-time monitoring and analytics capabilities."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Tracking and Telematics systems utilize GPS (Global Positioning System) for location tracking, cellular communication for data transmission, sensors for monitoring vehicle parameters, and integrated software platforms for real-time data analysis and management."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -425,16 +427,18 @@
       "subTitle":"ESSI's Integrated Command and Control system centralizes security management and operations. Combining advanced monitoring, communication, and control technologies, it ensures efficient coordination, real-time situational awareness, and rapid response to incidents, enhancing overall security and operational effectiveness.",
       "text": "ESSI's Integrated Command and Control system centralizes security management and operations. Combining advanced monitoring, communication, and control technologies, it ensures efficient coordination, real-time situational awareness, and rapid response to incidents, enhancing overall security and operational effectiveness.",
       "keyFeatures": [
-        "Rapid identification technique available to identify accurately and efficiently the magnetic card, barcode card etc.",
-        "Personalization for all type of ticket readers or contactless antenna.",
-        "With direction indication, guiding passenger to entry and exit.",
-        "Real time failure self-detect and alarm indication, ensuring system safe operation and facilitating maintenance and operation.",
-        "High flow rates of people depending on reader validation reaction speed.",
-        "Passage width: 20\" to 24\" for TGF with single flap panels and 32\" to 36\" for TGF with telescopic flap panel.",
-        "A dissuasive access control in one or both directions."
+        "Integrated Command and Control systems utilize centralized software platforms and interoperable technologies to unify operational management and coordination.",
+
+"These systems integrate data from multiple sources such as sensors, cameras, and communication networks for comprehensive situational awareness.",
+
+"Integrated with real-time analytics and visualization tools, Command and Control systems enable decision-makers to monitor and respond to incidents promptly.",
+
+"The technology enhances operational efficiency by streamlining workflows, automating tasks, and optimizing resource allocation."
+,
+"Integrated Command and Control systems ensure effective coordination of resources and personnel across various operational scenarios, enhancing overall responsiveness and effectiveness."
       ],
       "technologiesUsed": [
-        "The construction consists of different segments bolt together. The middle segment contains the controller and drive unit. The middle segment has two hinged locked doors providing optimum access to the controller and drive mechanism. Various optional access control devices (such as card readers, finger print readers etc.) can be accommodated on a stainless steel fascia panel located at each end segment of the MPR. The pedestrian retractable barrier, designed for indoor installations, is made up of polished steel plate 430 stainless steel with protection class IP 32."
+        "Integrated Command and Control systems utilize centralized software platforms, interoperable technologies, real-time data integration from sensors and communication networks, and advanced analytics for unified operational management and decision-making."
       ],
       "details": "Detailed information about Product 1"
     }
@@ -545,6 +549,7 @@
   "Contact": {
     "address": "Elkosta Security Systems India 01 Mercantile House, 15 Kasturba Gandhi Marg, New Delhi 110001 INDIA ",
     "phone": "+91 011 4151 9899",
+    "gst": "07AABCE4357Q1Z6",
     "email": "sales@essi.co.in",
     "facebook": "fb.com",
     "twitter": "twitter.com",
