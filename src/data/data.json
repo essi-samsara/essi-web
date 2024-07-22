@@ -88,28 +88,29 @@
     },
     {
       "id": 2,
-      "product_name":"road_blocker",
+      "product_name":"Visitor Management System",
       "imgs":[
-        "img/products/roadblocker1.png",
-        "img/products/roadblocker2.png",
-        "img/products/roadblocker3.png"
+        "img/products/vms1.png",
+        "img/products/vms2.png",
+        "img/products/vms3.png"
       ],      
-      "name": "Road Blockers",
-      "subTitle":"ESSI Road Blockers provide maximum security against unauthorized vehicles at entry-exit points. Crash-tested with a 7.5-ton truck at 80 km/h, they ensure reliability and continue to function fully after impact, offering robust security for high-sensitivity areas.",
-      "text": "ESSI Road Blockers provide maximum security against unauthorized vehicles at entry-exit points. Crash-tested with a 7.5-ton truck at 80 km/h, they ensure reliability and continue to function fully after impact, offering robust security for high-sensitivity areas.",
+      "name": "Vistor Management System",
+      "subTitle":"Welcome to our state-of-the-art Visitors Management System, designed to efficiently manage, track, and secure visitor access for your organization.",
+      "text": "Our advanced Visitors Management System streamlines visitor management with a quick and user-friendly sign-in process, including options for pre-registration and ID scanner integration. It enhances security through real-time tracking, customizable photo ID badges, and a blacklist feature to prevent unauthorized access. Additionally, it offers instant email or SMS notifications to hosts upon visitor arrival, ensuring seamless communication and a professional visitor experience.",
       "keyFeatures": [
-        "Compact hydraulic unit with motor, pump, solenoid valve and high pressure hydraulic cylinder.",
-        "Red flashing light in blocking element.",
-        "Emergency operation during power failure using hand pump.",
-        "Control in separate control box.",
-        "Blocking height: A-650mm/ B-800mm",
-        "Available impact/Crash strengths: DSP1-450kN, DSP2-600kN, DSP3-900kN, DSP4-1250kN and DSP5-2500kN",
-        "Can be standard/ automatic control/ fully automatic operational with central command and control for multiple units- with video feeds/ 2-way voice communication and central operation control with data logging.",
-        "Long term corrosion protection through galvanizing and 3 layers of bonded plastic 4S.",
-        "DRDO- CCE (R&D) and Certified for confirming compliance with stated impact strength/ crash rating and equivalence to ASTM f 2656 -07 / UK PAS / DOS K ratings."
+        "Quick and user-friendly sign-in process with options for pre-registration and ID scanner integration.",
+         "Real-time visitor tracking and monitoring with detailed analytics and reporting.", 
+         "Customizable visitor badges with photo ID for enhanced security.",
+          "Blacklist feature to prevent unauthorized access and ensure safety.", 
+          "Instant email or SMS notifications to hosts upon visitor arrival for seamless communication.",
+           "Centralized visitor database with secure storage and easy data retrieval.",
+            "Integration with other systems such as access control, calendar, and email.", 
+            "Automated workflows and reminders to streamline visitor management processes.",
+             "Scalable solution to accommodate businesses of all sizes.",
+             "Cloud-based platform for easy access from any device, anywhere."
       ],
       "technologiesUsed": [
-        "The Road Blocker is operated by high speed hydraulic cylinders. A power pack containing an electric motor – pump assembly and an accumulator/handle for manual operation (in case of power failure) is installed up to a distance of 20 meters from the barrier in all weatherproof lockable steel casing on a concrete Base. The operation time for moving the blocker up & down can be from 2 to 6 seconds. When activated, the extremely heavy blocking segment will extend and block the entry. The average blocking height is 650 mm. With a dynamic road blocker, the barrier is 'lifted' and can therefore reach a blocking height of 850 mm. Due to the  eye-catching warning color and the warning lights the blocking segment is clearly visible to approaching vehicles which allows the vehicles to stop in good time. In the lowered position the Road Blocker is absolutely unobtrusive and flush with the road surface."
+        "A visitor management system (VMS) is a software tool that facilitates the efficient and secure management of visitors entering a facility. It typically includes features for visitor registration, check-in/check-out processes, badge printing, and notifications to hosts. VMS enhances security by screening visitors, ensures compliance with visitor policies, and maintains a centralized log of visitor data, improving overall safety while providing a seamless experience for visitors and hosts alike."
       ],
       "details": "Detailed information about Product 1"
     },
@@ -449,7 +450,35 @@
         "Integrated Command and Control systems utilize centralized software platforms, interoperable technologies, real-time data integration from sensors and communication networks, and advanced analytics for unified operational management and decision-making."
       ],
       "details": "Detailed information about Product 1"
+    },
+    {
+      "id": 17,
+      "product_name":"road_blocker",
+      "imgs":[
+        "img/products/roadblocker1.png",
+        "img/products/roadblocker2.png",
+        "img/products/roadblocker3.png"
+      ],      
+      "name": "Road Blockers",
+      "subTitle":"ESSI Road Blockers provide maximum security against unauthorized vehicles at entry-exit points. Crash-tested with a 7.5-ton truck at 80 km/h, they ensure reliability and continue to function fully after impact, offering robust security for high-sensitivity areas.",
+      "text": "ESSI Road Blockers provide maximum security against unauthorized vehicles at entry-exit points. Crash-tested with a 7.5-ton truck at 80 km/h, they ensure reliability and continue to function fully after impact, offering robust security for high-sensitivity areas.",
+      "keyFeatures": [
+        "Compact hydraulic unit with motor, pump, solenoid valve and high pressure hydraulic cylinder.",
+        "Red flashing light in blocking element.",
+        "Emergency operation during power failure using hand pump.",
+        "Control in separate control box.",
+        "Blocking height: A-650mm/ B-800mm",
+        "Available impact/Crash strengths: DSP1-450kN, DSP2-600kN, DSP3-900kN, DSP4-1250kN and DSP5-2500kN",
+        "Can be standard/ automatic control/ fully automatic operational with central command and control for multiple units- with video feeds/ 2-way voice communication and central operation control with data logging.",
+        "Long term corrosion protection through galvanizing and 3 layers of bonded plastic 4S.",
+        "DRDO- CCE (R&D) and Certified for confirming compliance with stated impact strength/ crash rating and equivalence to ASTM f 2656 -07 / UK PAS / DOS K ratings."
+      ],
+      "technologiesUsed": [
+        "The Road Blocker is operated by high speed hydraulic cylinders. A power pack containing an electric motor – pump assembly and an accumulator/handle for manual operation (in case of power failure) is installed up to a distance of 20 meters from the barrier in all weatherproof lockable steel casing on a concrete Base. The operation time for moving the blocker up & down can be from 2 to 6 seconds. When activated, the extremely heavy blocking segment will extend and block the entry. The average blocking height is 650 mm. With a dynamic road blocker, the barrier is 'lifted' and can therefore reach a blocking height of 850 mm. Due to the  eye-catching warning color and the warning lights the blocking segment is clearly visible to approaching vehicles which allows the vehicles to stop in good time. In the lowered position the Road Blocker is absolutely unobtrusive and flush with the road surface."
+      ],
+      "details": "Detailed information about Product 1"
     }
+
   ],
   "Clients":
   [
